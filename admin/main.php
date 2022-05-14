@@ -1,7 +1,9 @@
 <?php
 //include_once('../lib/dbcon.php');
 
+error_reporting (E_ALL);
 
+ini_set ("display_errors", 1);
 
 $real_hostname="3.36.219.35";
 $real_username="cfgaussroot";
