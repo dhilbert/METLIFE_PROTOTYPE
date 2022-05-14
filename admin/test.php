@@ -18,7 +18,6 @@ $db = new mysqli_connect('127.0.0.1', 'root', 'autoset',
 */
 $connection = ssh2_connect('3.36.219.35', 22);
 ssh2_auth_password($connection, 'root', 'autoset');
-
 $stream = ssh2_exec($connection, 'useradd -d /home/users/test -m testftp');
 $stream = ssh2_exec($connection, 'passwd testftp');
 $stream = ssh2_exec($connection, 'password');

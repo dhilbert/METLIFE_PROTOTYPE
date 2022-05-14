@@ -10,7 +10,6 @@ include_once('head.php');
  
 ?>
 
-111111111111111
 		
 <div id="container" class="container">
 			<div class="wrap-contents">
