@@ -1,42 +1,38 @@
 <?php
+//include_once('../lib/dbcon.php');
+
+
+$real_hostname="3.36.219.35";
+$real_username="cfgaussroot";
+//$real_username="gaussadmin";
+$real_password="autoset";
+
+$real_name="met_prototype";
 
 include_once('head.php');
-
-/*
-
-
  /* Connect to MySQL and select the database. */
- $connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD);
+ $connection = mysqli_connect($real_hostname, $real_username, $real_password);
 
  if (mysqli_connect_errno()) echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
- $database = mysqli_select_db($connection, DB_DATABASE);
+ $database = mysqli_select_db($connection, $real_name);
 
+
+ $real_sock =  $connection;
+ $real_db =  $database ;
+ //mysqli_set_charset($real_sock, 'utf8'); 
+ 
+
+
+
+
+
+
+
+
+ /*
  /* Ensure that the EMPLOYEES table exists. */
- VerifyEmployeesTable($connection, DB_DATABASE);
-
- /* If input fields are populated, add a row to the EMPLOYEES table. */
- $employee_name = htmlentities($_POST['NAME']);
- $employee_address = htmlentities($_POST['ADDRESS']);
-
- if (strlen($employee_name) || strlen($employee_address)) {
-   AddEmployee($connection, $employee_name, $employee_address);
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 ?>
 
 
