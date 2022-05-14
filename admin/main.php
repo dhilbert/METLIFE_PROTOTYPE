@@ -1,6 +1,8 @@
 <?php
 error_reporting (E_ALL);
 ini_set ("display_errors", 1);
+phpinfo(); 
+
 
 include_once('../lib/dbcon.php');
 include_once('head.php');

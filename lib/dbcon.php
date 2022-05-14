@@ -1,5 +1,7 @@
 <?php
 
+phpinfo(); 
+
 
 $real_hostname="3.36.219.35";
 $real_username="cfgaussroot";
