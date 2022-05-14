@@ -1,29 +1,9 @@
 <?php
-//include_once('../lib/dbcon.php');
-
 error_reporting (E_ALL);
-
 ini_set ("display_errors", 1);
 
-$real_hostname="3.36.219.35";
-$real_username="cfgaussroot";
-//$real_username="gaussadmin";
-$real_password="autoset";
-
-$real_name="met_prototype";
-
- /* Connect to MySQL and select the database. */
- $connection = mysqli_connect($real_hostname, $real_username, $real_password);
-
- if (mysqli_connect_errno()) echo "Failed to connect to MySQL: " . mysqli_connect_error();
-
- $database = mysqli_select_db($connection, $real_name);
-
-
- $real_sock =  $connection;
- $real_db =  $database ;
- mysqli_set_charset($real_sock, 'utf8'); 
- include_once('head.php');
+include_once('../lib/dbcon.php');
+include_once('head.php');
 
  
 ?>
