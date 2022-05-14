@@ -2,7 +2,7 @@
 //include_once('../lib/dbcon.php');
 
 
-include_once('head.php');
+
 $real_hostname="3.36.219.35";
 $real_username="cfgaussroot";
 //$real_username="gaussadmin";
@@ -21,7 +21,7 @@ $real_name="met_prototype";
  $real_sock =  $connection;
  $real_db =  $database ;
  mysqli_set_charset($real_sock, 'utf8'); 
- 
+ include_once('head.php');
 
  
 ?>
