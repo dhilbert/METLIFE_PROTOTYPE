@@ -1,7 +1,7 @@
 <?php
 
 
-$real_hostname="127.0.0.1";
+$real_hostname="3.36.219.35";
 $real_username="cfgaussroot";
 //$real_username="gaussadmin";
 $real_password="autoset";
