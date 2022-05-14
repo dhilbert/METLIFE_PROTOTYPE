@@ -1,8 +1,41 @@
 <?php
-include_once('../lib/dbcon.php');
-
 
 include_once('head.php');
+
+/*
+
+
+ /* Connect to MySQL and select the database. */
+ $connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD);
+
+ if (mysqli_connect_errno()) echo "Failed to connect to MySQL: " . mysqli_connect_error();
+
+ $database = mysqli_select_db($connection, DB_DATABASE);
+
+ /* Ensure that the EMPLOYEES table exists. */
+ VerifyEmployeesTable($connection, DB_DATABASE);
+
+ /* If input fields are populated, add a row to the EMPLOYEES table. */
+ $employee_name = htmlentities($_POST['NAME']);
+ $employee_address = htmlentities($_POST['ADDRESS']);
+
+ if (strlen($employee_name) || strlen($employee_address)) {
+   AddEmployee($connection, $employee_name, $employee_address);
+ }
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
 
 ?>
 
