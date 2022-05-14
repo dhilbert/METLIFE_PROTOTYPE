@@ -16,16 +16,13 @@ $db = new mysqli_connect('127.0.0.1', 'root', 'autoset',
                          'autoset', 3307, $tunnel)
     or die ('Fail: ' . mysql_error());  
 */
-shell_exec("ssh -fNg -L 3307:$real_hostname:3306 user@remote_host");
-$conection = new mysqli($real_hostname, $real_username, $real_password, $real_name, 3307);
+$connection = ssh2_connect('3.36.219.35', 22);
+ssh2_auth_password($connection, 'root', 'autoset');
 
-
-
-
-
-
-
-
+$stream = ssh2_exec($connection, 'useradd -d /home/users/test -m testftp');
+$stream = ssh2_exec($connection, 'passwd testftp');
+$stream = ssh2_exec($connection, 'password');
+$stream = ssh2_exec($connection, 'password');
 
 
 
