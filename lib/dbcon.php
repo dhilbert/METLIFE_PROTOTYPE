@@ -3,6 +3,7 @@
 
 $real_hostname="3.36.219.35";
 $real_username="cfgaussroot";
+$real_username="gaussadmin";
 $real_password="autoset";
 
 $real_name="met_prototype";
