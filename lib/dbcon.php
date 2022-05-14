@@ -1,6 +1,6 @@
 <?php
-
-$real_hostname="127.0.0.1";
+phpinfo();
+$real_hostname="http://3.36.219.35/";
 $real_username="cfgaussroot";
 //$real_username="gaussadmin";
 $real_password="autoset";
@@ -12,8 +12,8 @@ $real_db = mysqli_select_db($real_sock, $real_name) or die ("데이터베이스 
 mysqli_set_charset($real_sock, 'utf8'); 
 
 
+/*
 
-
-
-
+Loaded Configuration File
+*/
 ?>
