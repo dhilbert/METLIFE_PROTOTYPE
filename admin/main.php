@@ -2,6 +2,7 @@
 //include_once('../lib/dbcon.php');
 
 
+include_once('head.php');
 $real_hostname="3.36.219.35";
 $real_username="cfgaussroot";
 //$real_username="gaussadmin";
@@ -9,7 +10,6 @@ $real_password="autoset";
 
 $real_name="met_prototype";
 
-include_once('head.php');
  /* Connect to MySQL and select the database. */
  $connection = mysqli_connect($real_hostname, $real_username, $real_password);
 
@@ -20,22 +20,13 @@ include_once('head.php');
 
  $real_sock =  $connection;
  $real_db =  $database ;
- //mysqli_set_charset($real_sock, 'utf8'); 
+ mysqli_set_charset($real_sock, 'utf8'); 
  
 
-
-
-
-
-
-
-
- /*
- /* Ensure that the EMPLOYEES table exists. */
  
 ?>
 
-
+111111111111111
 		
 <div id="container" class="container">
 			<div class="wrap-contents">
