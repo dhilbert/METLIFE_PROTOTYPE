@@ -13,7 +13,7 @@ $mb_link = isset($_GET['mb_link']) ? $_GET['mb_link'] : '제목 없음';
 $mb_ctaname = isset($_GET['mb_ctaname']) ? $_GET['mb_ctaname'] : '제목 없음';
 $upfile1 = isset($_GET['upfile1']) ? $_GET['upfile1'] : '제목 없음';
 $upfile2 = isset($_GET['upfile2']) ? $_GET['upfile2'] : '제목 없음';
-$mb_show = isset($_GET['mb_show']) ? $_GET['mb_show'] : '제목 없음';
+$mb_show = isset($_GET['mb_show']) ? $_GET['mb_show'] : '0';
 $mb_u = isset($_GET['mb_u']) ? $_GET['mb_u'] : '제목 없음';
 
 $namsesss = array('김주연','현단비');
@@ -56,8 +56,8 @@ $sql	= "
 	where mb_inx ='".$mb_inx."'
 
   ";
+  echo $sql;
   $res	=  mysqli_query($real_sock,$sql) or die(mysqli_error($real_sock));
-
 
 echo "<script>
 	alert('업데이트성공');
