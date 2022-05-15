@@ -42,7 +42,7 @@
 				<div class="contents">
 					<ul class="nav nav-tabs mt10" role="tablist">
 						<li role="presentation" class="active"><a href="#" aria-controls="home" role="tab" data-toggle="tab">메인 비주얼 관리</a></li>
-						<li role="presentation"><a href="main_1.php" aria-controls="messages">메인 게시물 관리</a></li>
+						<li role="presentation"><a href="01.main.php" aria-controls="messages">메인 게시물 관리</a></li>
 					</ul>
 					<div class="card">
 						
@@ -135,38 +135,7 @@
 										<td>
 											
 											
-<script type="text/javascript">
-function formSubmit(f) {
-    // 업로드 할 수 있는 파일 확장자를 제한합니다.
-	var extArray = new Array('jpg');
-	var path = document.getElementById("upfile").value;
-	if(path == "") {
-		alert("파일을 선택해 주세요.");
-		return false;
-	}
-	var pos = path.indexOf(".");
-	if(pos < 0) {
-		alert("이미지 파일만 업로드하세요");
-		echo pos;
-		return false;
-	}
-	var ext = path.slice(path.indexOf(".") + 1).toLowerCase();
-	var checkExt = false;
-	for(var i = 0; i < extArray.length; i++) {
-		if(ext == extArray[i]) {
-			checkExt = true;
-			break;
-		}
-	}
-	if(checkExt == false) {
-		alert("이미지 파일만 업로드하세요");
-	    return false;
-	}
-	return true;
-
-}
-</script>
-					
+			
 
 
 
@@ -219,6 +188,14 @@ function formSubmit(f) {
 
 
 </form>
+
+※ 프로토타입 유의사항
+<br>1. 파일 업로드 안됨
+<br>2. 로그인세션 안붙임. 현단비과장님과 김주연대리님중 한명이 관리자로 등록됨. 
+<br>3. 이미지는 기존 이미지 random으로 배치됨. 
+<br>4. 모바일 사이즈와 pc 사이즈는 완성본에 적용됨.
+
+
 
 
 					</div>

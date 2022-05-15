@@ -23,7 +23,7 @@ include_once('head.php');
 				<div class="contents">
 					<ul class="nav nav-tabs mt10" role="tablist">
 						<li role="presentation" class="active"><a href="#" aria-controls="home" role="tab" data-toggle="tab">메인 비주얼 관리</a></li>
-						<li role="presentation"><a href="main_1.php" aria-controls="messages">메인 게시물 관리</a></li>
+						<li role="presentation"><a href="01.main.php" aria-controls="messages">메인 게시물 관리</a></li>
 					</ul>
 					<div class="card">
 						<div class="row mt5">
@@ -58,11 +58,17 @@ include_once('head.php');
 									<th>연결URL</th>
 									<th>관리자</th>
 									<th>등록일자</th>
+									<th>업데이트 일자</th>
 								</tr>
 							</thead>
 							<?php
+
+
+
 								$num = 0;
-								$sql = "select  * from main_banner order by mb_inx DESC";
+								$check_num = 0;
+
+								$sql = "select  * from main_banner order by mb_update DESC ";
 								$res	=  mysqli_query($real_sock,$sql) or die(mysqli_error($real_sock));
 								while($info	 = mysqli_fetch_array($res)){
 									$num += 1;
@@ -72,8 +78,9 @@ include_once('head.php');
 											<td>".$info['mb_order']."</td>";
 											
 											$mb_show = array("비전시","전시")[$info['mb_show']];
+											$check_num +=$info['mb_show'];
 
-											echo "<td>".$mb_show."</td>
+											echo "<td><a href='main_reg_proc1.php?mb_show=".$info['mb_show']."&mb_inx=".$info['mb_inx']."'>".$mb_show."</td>
 											<td><img src='img/".$info['mb_pc_file']."' height='50'></td>
 											<td><img src='img/".$info['mb_mo_file']."' height='50'></td>											
 											<td><a href='main_reg.php?mb_inx=".$info['mb_inx']."'>".$info['mb_text']."</a></td>
@@ -85,6 +92,7 @@ include_once('head.php');
 											
 											<td>".$info['mb_adminname']."</td>
 											<td>".$info['mb_regtime']."</td>
+											<td>".$info['mb_update']."</td>
 											
 
 
@@ -95,23 +103,46 @@ include_once('head.php');
 								}
 							
 							?>	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 						</table>
+※ 프로토 타입
+<br> 중요 기능 1. 전시 갯수에 따라 메인 배너의 노출 형태 변경
+<br> 중요 기능 2. 관리자가 입력한 배너 갯수가 많아도, 시스템이 최대 5개 까지만 노출
+<br> 중요 기능 3. 배너 미리보기 요약 (하단 참고 )
+<br> <?php 
+
+if($check_num<3){
+	$want_text = 'Immersive Brand Navigation - Single Hero';
+	$check_num = 1;
+}
+elseif($check_num<6){
+	$want_text = 'Immersive Brand Navigation - 4 Tabs';
+}else{
+	$want_text = 'Immersive Brand Navigation - 4 Tabs';
+	$check_num = "5(최대 노출 배너갯수는 5개입니다.)";
+}
+echo "<font color = 'red'>배너 타입 : ".$want_text;
+echo "<br>배너 갯수 : ".$check_num."</font>";
+?>
+<br> 기능 추가. 리스트 화면에서 전시 상태 변경 가능 
+<br> 정렬 기준
+<br> 1. 리스트 및 배너 불러올때는 최신 업데이트 순으로 
+<br> 2. 메인 배너 노출 기준은 전시 상태 > 전시 순서 > 업에이트 순으로. 즉 전시 순서가 같은 경우 마지막 업데이트 한 일자 기준으로 노출
+<p>
+<br> 고객사 요청 사항
+<br> 1. 메인 배너 리스트에서 보고 싶은 데이터 위주로 확인 부탁 드립니다. 
+<br> 2. 메인 배너 리스트에서 하고 싶은 업무 정리 부탁 드립니다. 
+<br> ex) 전시 상태 변셩 / 전시 순서 변경 등등
+<br> 테스트를 위한 초기화 버튼 : <A HREF='main_reg_origin.php'><button type="button" class="btn btn-primary" id="btnWrite">초기화</button></A> (클릭시 초기 데이터로 돌림)
+
+
+
+<br>
+
+
+
+
+
+
 					</div>
 				</div>
 			</div>

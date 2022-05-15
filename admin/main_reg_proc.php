@@ -26,76 +26,34 @@ $mb_regtime = isset($_POST['mb_regtime']) ? $_POST['mb_regtime'] : '제목 없�
 */
 
 
-if(isset($_FILES['upfile1']) && $_FILES['upfile1']['name'] != "") {
-
-    $file = $_FILES['upfile1'];
-
-    $upload_directory = 'img/';
-    $ext_str = "jpg";
-    $allowed_extensions = explode(',', $ext_str);
-    $max_file_size = 5242880;
-    $ext = substr($file['name'], strrpos($file['name'], '.') + 1);
-    if(!in_array($ext, $allowed_extensions)) {
-        echo "이미지 파일만 가능";
-    }
-
-    $path = md5(microtime()) . '.' . $ext;
-    move_uploaded_file($file['tmp_name'], $upload_directory.$path);
-} else {
-
-    echo "<h3>파일이 업로드 되지 않았습니다.</h3>";
-    echo '<a href="javascript:history.go(-1);">이전 페이지</a>';
-}
-$mb_pc_file = $path;
-
-if(isset($_FILES['upfile2']) && $_FILES['upfile2']['name'] != "") {
-
-    $file = $_FILES['upfile2'];
-
-    $upload_directory = 'img/';
-    $ext_str = "jpg";
-    $allowed_extensions = explode(',', $ext_str);
-    $max_file_size = 5242880;
-    $ext = substr($file['name'], strrpos($file['name'], '.') + 1);
-    if(!in_array($ext, $allowed_extensions)) {
-       
-
-		echo "<script>
-		alert('이미지 파일중 jpg만 가능');
-		parent.location.replace('/METLIFE_PROTOTYPE/admin/main_reg.php');
-		</script> ";
-    }
-
-    $path = md5(microtime()) . '.' . $ext;
-    move_uploaded_file($file['tmp_name'], $upload_directory.$path);
-} else {
-	echo "<script>
-	alert('이미지 파일중 jpg만 가능');
-	parent.location.replace('/METLIFE_PROTOTYPE/admin/main_reg.php');
-	</script> ";
-}
-$mb_mo_file = $path;
 
 
 
-$namsesss = array('윤희동','김주연','현단비');
-$rand = rand(0, 2);
+$namsesss = array('김주연','현단비');
+$rand = rand(0, 1);
 $mb_adminname = $namsesss[$rand] ;
+
+$mb_pc_file =rand(1,11);
+$mb_mo_file =$mb_pc_file;
+
+
+
 
 
 $sql	= "
   insert main_banner set 
-	mb_text = '".$mb_text."',
-	mb_kind = '".$mb_kind."',
-	mb_order = '".$mb_order."',
-	mb_showtext = '".$mb_showtext."',
-	mb_link = '".$mb_link."',
-	mb_ctaname = '".$mb_ctaname."',
-	mb_pc_file = '".$mb_pc_file."',
-	mb_mo_file = '".$mb_mo_file."',
+  mb_text = '".mylove_jy($mb_text)."',
+	mb_kind = '".mylove_jy($mb_kind)."',
+	mb_order = '".mylove_jy($mb_order)."',
+	mb_showtext = '".mylove_jy($mb_showtext)."',
+	mb_link = '".mylove_jy($mb_link)."',
+	mb_ctaname = '".mylove_jy($mb_ctaname)."',
+	mb_pc_file = '".$mb_pc_file.".jpg',
+	mb_mo_file = '".$mb_mo_file.".jpg',
 	mb_show ='". $mb_show."',
 	mb_adminname = '".$mb_adminname."',
-	mb_regtime =now()
+	mb_regtime =now(),
+  mb_update =now()
 
   ";
 $res	=  mysqli_query($real_sock,$sql) or die(mysqli_error($real_sock));
@@ -113,5 +71,3 @@ echo "<script>
 
 
 ?>
-
-

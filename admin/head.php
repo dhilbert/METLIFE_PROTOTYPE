@@ -27,31 +27,31 @@
 		<header id="header">
 	<nav class="navbar">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="/ntapp"><img src="/images/ntapp/logo.png" alt="MetLife Foundation" /></a>
+			<a class="navbar-brand" href="/ntapp"><img src="https://metlifewelfare.org/images/ntapp/logo.png" alt="MetLife Foundation" /></a>
 		</div>
 		<ul class="nav navbar-nav">
 			<li class="active">
 				<a href="/ntapp/program/programList">프로그램 관리</a>
 				<ul class="navbar-2depth">
-					<li class="active"><a href="/ntapp/program/programList">프로그램 관리</a></li>
-					<li><a href="/ntapp/program/reviewList">후기 관리</a></li>
-					<li><a href="/ntapp/program/vmsList">인증서 신청 관리</a></li>
+					
+					<li><a href="#">후기 관리<공사중></a></li>
+					
 				</ul>
 			</li>
 			<li>
 				<a href="/ntapp/article/main/visual/list">게시물 관리</a>
 				<ul class="navbar-2depth">
+					<li><a href="/METLIFE_PROTOTYPE/admin/main.php">메인 관리</a></li>
+					<li><a href="#">공지사항 관리(공사중)</a></li>
+					<li><a href="#">뉴스 관리(공사중)</a></li>
 					
-					<li><a href="/ntapp/article/notice/list">공지사항 관리</a></li>
-					<li><a href="/ntapp/article/news/list">뉴스 관리</a></li>
-					<li><a href="/ntapp/article/download/list">자료실 관리</a></li>
 					
 				</ul>
 			</li>
 		
 		</ul>
 		<div class="navbar-right" id="username">
-			<i class="fa fa-user-circle-o"></i> <strong>관리자</strong><span>님</span> <a href="/ntapp/auth/logout" class=""><i class="fa fa-sign-out"></i> 로그아웃</a>
+			<i class="fa fa-user-circle-o"></i> <strong>관리자</strong><span>님</span> <a href="#" class=""><i class="fa fa-sign-out"></i> 로그아웃</a>
 		</div>
 	</nav>
 </header>
