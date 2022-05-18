@@ -7,7 +7,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
-    <title>메트라이프</title>
+    <title>메트라이프 재단</title>
+    <link rel="icon" type="image/x-icon" href="https://metlifewelfare.org/images/comm/favicon.ico" />
+    
     <meta name="title" content="메트라이프" />
     <meta property="description" content="행복한 내일은 행복한 오늘이 모여서 만들어지는 것이기에 오늘부터, 메트라이프입니다." />
     <meta name="description" content="행복한 내일은 행복한 오늘이 모여서 만들어지는 것이기에 오늘부터, 메트라이프입니다." />
