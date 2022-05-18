@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="https://www.metlifewelfare.org/css/lib/summernote/summernote-lite.css" />
 
 
-</head>
+</head>   
 <body>
 	<header class="header">
 	<div class="header-top">
