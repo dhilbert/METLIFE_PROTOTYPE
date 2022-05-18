@@ -800,6 +800,90 @@ include_once('main_content.php')
 
 
 
+
+    
+    
+<div class="brand-promise-breaker parbase">
+
+
+
+
+    
+<script type="text/javascript" src="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/brand-promise-breaker/clientlibs.min.js" defer></script>
+
+
+
+
+<link rel="stylesheet" href="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/brand-promise-breaker/clientlibs.min.css" type="text/css">
+
+
+
+
+
+<div class="component brand-promise-breaker bg component__spacing-bottom ">
+<div class="container">
+    <div class="row promise-breaker-border-row">
+        <div class="col-12 col-md-11 offset-md-1">
+            <div class="promise-breaker-border"></div>
+        </div>
+    </div>
+    <div class="row promise-breaker-header-row">
+        <div class="col-12 col-md-10 offset-md-1">
+            <h2 class="promise-breaker-header">Why MetLife</h2>
+        </div>
+    </div>
+    
+    
+        <div class="row promise-breaker-content-row" data-aos="fade" data-aos-anchor-placement="center-center">
+            <div class="col-12 col-sm-6 col-md-5 offset-md-1 promise-breaker-left">
+                <h3 class="promise-breaker-title">Customized Solutions</h3>
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 promise-breaker-right">
+                <div class="promise-breaker-border"></div>
+                <div class="promise-breaker-copy"><p>Our bundles are designed to meet the individualized, ever-changing needs of a diverse workforce. </p>
+</div>
+            </div>
+        </div>
+    
+        <div class="row promise-breaker-content-row" data-aos="fade" data-aos-anchor-placement="center-center">
+            <div class="col-12 col-sm-6 col-md-5 offset-md-1 promise-breaker-left">
+                <h3 class="promise-breaker-title">Service Made Simple</h3>
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 promise-breaker-right">
+                <div class="promise-breaker-border"></div>
+                <div class="promise-breaker-copy"><p>With a single point of contact, it’s easier than ever to get the service you need, including after implementation. </p>
+</div>
+            </div>
+        </div>
+    
+        <div class="row promise-breaker-content-row" data-aos="fade" data-aos-anchor-placement="center-center">
+            <div class="col-12 col-sm-6 col-md-5 offset-md-1 promise-breaker-left">
+                <h3 class="promise-breaker-title">Support That Counts</h3>
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 promise-breaker-right">
+                <div class="promise-breaker-border"></div>
+                <div class="promise-breaker-copy"><p>Our dedicated professionals offer support you can rely on—even when interacting with third party platforms and providers. </p>
+</div>
+            </div>
+        </div>
+    
+        <div class="row promise-breaker-content-row" data-aos="fade" data-aos-anchor-placement="center-center">
+            <div class="col-12 col-sm-6 col-md-5 offset-md-1 promise-breaker-left">
+                <h3 class="promise-breaker-title">An Expert Partner</h3>
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 promise-breaker-right">
+                <div class="promise-breaker-border"></div>
+                <div class="promise-breaker-copy"><p>We ensure our partners have access to the data, advice, insights that enable smart decisions—for today and everyday after.</p>
+</div>
+            </div>
+        </div>
+    
+</div>
+</div></div>
+
+
+</div>
+
 <!--
 
 
