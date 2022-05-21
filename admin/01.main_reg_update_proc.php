@@ -38,15 +38,17 @@ $mb_mo_file =$mb_pc_file;
 
 
 
+
+
 $sql	= "
   update main_contents set 
-    mb_text = '".mylove_jy($mb_text)."',
-	mb_order = '".mylove_jy($mb_order)."',
-	mb_contentskind = '".mylove_jy($mb_contentskind)."',
-	mb_showtext = '".mylove_jy($mb_showtext)."',
-	mb_showtext_sub = '".mylove_jy($mb_showtext_sub)."',
-	mb_link = '".mylove_jy($mb_link)."',
-	mb_ctaname = '".mylove_jy($mb_ctaname)."',
+    mb_text = '".replace_text($mb_text)."',
+	mb_order = '".replace_text($mb_order)."',
+	mb_contentskind = '".replace_text($mb_contentskind)."',
+	mb_showtext = '".replace_text($mb_showtext)."',
+	mb_showtext_sub = '".replace_text($mb_showtext_sub)."',
+	mb_link = '".replace_text($mb_link)."',
+	mb_ctaname = '".replace_text($mb_ctaname)."',
 	mb_pc_file = '".$mb_pc_file.".jpg',
 	mb_mo_file = '".$mb_mo_file.".jpg',
 	mb_show ='". $mb_show."',

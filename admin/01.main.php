@@ -14,23 +14,137 @@ include_once('head.php');
 <div id="container" class="container">
 			<div class="wrap-contents">
 				<div class="page-control">
+					
+				</div>
+				<div class="contents">
+
+				<div class="page-control">
 					<div class="row">
 						<div class="col-xs-6">
 							<span class="page-title">메인 관리</span>
 						</div>
-					</div>
-				</div>
-				<div class="contents">
-					<ul class="nav nav-tabs mt10" role="tablist">
-						<li role="presentation" ><a href="main.php" aria-controls="home" role="tab" data-toggle="tab">메인 비주얼 관리</a></li>
-						<li role="presentation" class="active"><a href="01.main.php" aria-controls="messages">메인 게시물 관리</a></li>
-					</ul>
-					<div class="card">
-						<div class="row mt5">
-							<div class="col-xs-12 text-right">
-								<A HREF='01.main_reg.php'><button type="button" class="btn btn-primary" id="btnWrite">등록</button></A>
-							</div>
+						<div class="col-xs-6 text-right">
+
+						
+						<A HREF='xlsx/main_content_20220524.xlsx'><button type="button" class="btn btn-default mr10"  id="btnExcelDownload"> 엑셀 다운로드</button></A>
+							<!-- <button type="button" class="btn btn-default">삭제</button> -->
+							<A HREF='01.main_reg.php'><button type="button" class="btn btn-primary" id="btnWrite">등록</button></A>
 						</div>
+					</div>
+
+
+				</div>
+
+				<div class="contents">
+
+
+
+
+
+
+
+				
+<ul class="nav nav-tabs mt10" role="tablist">
+	<li role="presentation" ><a href="main.php" aria-controls="home" role="tab" data-toggle="tab">메인 비주얼 관리</a></li>
+	<li role="presentation" class="active"><a href="01.main.php" aria-controls="messages">메인 게시물 관리</a></li>
+</ul>
+
+
+								
+								
+
+					
+
+						<div class="card">
+						<div class="tools">
+							<div class="row">
+								<div class="col-xs-6">
+									<div class="form-inline">
+									<span class="select">
+											<select name="searchDateGb" id="" class="form-control">
+												<option value="rcrit">등록일자</option>
+												<option value="presnat">업데이트 일자</option>
+												
+											</select>
+										</span>
+										<div class="wrap-calendar form-group">
+											<div class="input-group input-daterange wrap-calendar form-group">
+												<div class="input-icon">
+													<i class="fa fa-calendar"></i>
+													<input type="text" class="form-control datetimepicker date-from" id="" name="searchDateBegin" value="" placeholder="from" />
+													
+												</div>
+												<span class="input-group-addon">~</span>
+												<div class="input-icon">
+													<i class="fa fa-calendar"></i>
+													<input type="text" class="form-control datetimepicker date-to" id="" name="searchDateEnd" value="" placeholder="to" />
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-6 text-right">
+									<div class="form-inline">
+										
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-6">
+								<span class="checkbox-inline">
+										<label>
+											<input type="checkbox" name="searchSttusAllYn" value="Y" > 전체
+										</label>
+									</span>
+								
+									<span class="checkbox-inline">
+										<label>
+											<input type="checkbox" name="searchSttusAllYn" value="Y" > 전시
+										</label>
+									</span>
+									<span class="checkbox-inline">
+										<label>
+											<input type="checkbox" name="searchSttusAllYn" value="Y" > 비전시
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-6 text-right">
+									<div class="form-inline">
+										<span class="select">
+												<select name="searchField" id="" class="form-control">
+													<option value="">제목</option>
+													<option value="name">전시텍스트</option>
+													<option value="cn">콘텐츠타입</option>
+													<option value="cn">연결URL</option>
+													<option value="cn">관리자</option>
+
+												</select>
+											</span>
+											<div class="input-group ">
+												<input type="text" name="searchKeyword" class="form-control" placeholder="검색어 입력" />
+												<span class="input-group-btn">
+													<input  type='submit' class="btn btn-success login-btn" type="submit" value="검색">
+												</span>
+											</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+				
+
+
+
+
+
+
+
+
+
+
+
+
+						
 						<table id="dataTable" class="table tablesorter table-hover table-bordered table-vertical">
 							<colgroup>
 								<col style="width: 5%">

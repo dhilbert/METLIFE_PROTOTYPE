@@ -42,12 +42,12 @@ $mb_mo_file =$mb_pc_file;
 
 $sql	= "
   insert main_banner set 
-  mb_text = '".mylove_jy($mb_text)."',
-	mb_kind = '".mylove_jy($mb_kind)."',
-	mb_order = '".mylove_jy($mb_order)."',
-	mb_showtext = '".mylove_jy($mb_showtext)."',
-	mb_link = '".mylove_jy($mb_link)."',
-	mb_ctaname = '".mylove_jy($mb_ctaname)."',
+  mb_text = '".replace_text($mb_text)."',
+	mb_kind = '".replace_text($mb_kind)."',
+	mb_order = '".replace_text($mb_order)."',
+	mb_showtext = '".replace_text($mb_showtext)."',
+	mb_link = '".replace_text($mb_link)."',
+	mb_ctaname = '".replace_text($mb_ctaname)."',
 	mb_pc_file = '".$mb_pc_file.".jpg',
 	mb_mo_file = '".$mb_mo_file.".jpg',
 	mb_show ='". $mb_show."',

@@ -93,7 +93,7 @@
 										$text = '제목';
 										$names = 'mb_text';
 										$value = $mb_text;
-										cute_jy_text($text,$names,$value);
+										table_td_text($text,$names,$value);
 									?>
 									<tr>
 										<th>콘텐츠 타입</th>	
@@ -133,21 +133,21 @@
 										$text = '전시 텍스트';
 										$names = 'mb_showtext';
 										$value = $mb_showtext;
-										cute_jy_text($text,$names,$value);
+										table_td_text($text,$names,$value);
 										
 										$text = '서브 텍스트';
 										$names = 'mb_showtext_sub';
 										$value = $mb_showtext_sub;
-										cute_jy_text($text,$names,$value);
+										table_td_text($text,$names,$value);
 									
 										$text = '이동경로';
 										$names = 'mb_link';
 										$value = $mb_link;
-										cute_jy_text($text,$names,$value);
+										table_td_text($text,$names,$value);
 										$text = '버튼명';
 										$names = 'mb_ctaname';
 										$value = $mb_ctaname;
-										cute_jy_text($text,$names,$value);
+										table_td_text($text,$names,$value);
 									
 									
 									
@@ -163,7 +163,7 @@
 										$text = '영상 파일';
 										$names = 'mb_u';
 										$value = $mb_u;
-										cute_jy_text($text,$names,$mb_u);
+										table_td_text($text,$names,$mb_u);
 
 									?>
 

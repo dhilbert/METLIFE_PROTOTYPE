@@ -163,7 +163,7 @@
                             <svg class="icon icon-menu header__navigation-trigger" aria-hidden="true" tabindex="-1"
                                 focusable="false">
                                 <title id="navmenu">Navigation</title>
-                                <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-menu" aria-hidden="true"
+                                <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-menu" aria-hidden="true"
                                     tabindex="-1" focusable="false"></use>
                             </svg>
                         </a>

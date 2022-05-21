@@ -23,36 +23,36 @@
 <?php
     
     include_once('lib/dbcon.php');
-    function Cutie_jy_th($value,$values){
+    function index_table_th($value,$values){
         echo '<th data-field="data_'.$value.'" data-sortable="true">'.$values.'</th>';
 
     }
-    function Cutie_jy_td($value,$values){
+    function Cutie_hd_td($value,$values){
         return '<td data-field="data_'.$value.'" data-sortable="true">'.$values.'</td>';
 
     } 
-	function Cutie_jy_td2($value,$values){
+	function Cutie_hd_td2($value,$values){
         echo  '<td data-field="data_'.$value.'" data-sortable="true">'.$values.'</td>';
 
     }
 
 
 
-	function Cutie_jy_admin($array){
+	function index_table_admin($array){
 		echo "<tr>"	;
 			$num = 0;
 			$num += 1;
 			$values = $array[0];
-			Cutie_jy_td2($num,$values);
+			Cutie_hd_td2($num,$values);
 			$num += 1;
 			$values = $array[1];
-			Cutie_jy_td2($num,$values);
+			Cutie_hd_td2($num,$values);
 			$num += 1;
 			$values = "<a href='".$array[2]."' class='btn btn-primary' target='_blank'>보기<a/>";
-			Cutie_jy_td2($num,$values);
+			Cutie_hd_td2($num,$values);
 			$num += 1;
 			$values = $array[3];
-			Cutie_jy_td2($num,$values);
+			Cutie_hd_td2($num,$values);
 		echo "</tr>"	;
 
     }
@@ -61,21 +61,21 @@
 
 
 
-	function Cutie_jy_admin2($array){
+	function index_table_admin2($array){
 		echo "<tr>"	;
 			$num = 0;
 			$num += 1;
 			$values = $array[0];
-			Cutie_jy_td2($num,$values);
+			Cutie_hd_td2($num,$values);
 			$num += 1;
 			$values = $array[1];
-			Cutie_jy_td2($num,$values);
+			Cutie_hd_td2($num,$values);
 			$num += 1;
 			$values = "공사중";
-			Cutie_jy_td2($num,$values);
+			Cutie_hd_td2($num,$values);
 			$num += 1;
 			$values = $array[3];
-			Cutie_jy_td2($num,$values);
+			Cutie_hd_td2($num,$values);
 		echo "</tr>"	;
 
     }
@@ -113,27 +113,34 @@
 		$temp_text="<tr>";
 
 
-		$values = $info['it_sttu'];		$temp_text=$temp_text.Cutie_jy_td($num,$values);$num += 1;
+		$values = $info['it_sttu'];		$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
 		if($values=='기획중'){$num1 += 1;	}
 		elseif($values==' 진행중'){$num2 += 1;	}
 		elseif($values==' 완료'){$num3 += 1;	}
 
 
-		//$values = $info['it_1dep'];		$temp_text=$temp_text.Cutie_jy_td($num,$values);$num += 1;
-		//$values = $info['it_2dep'];		$temp_text=$temp_text.Cutie_jy_td($num,$values);$num += 1;
-		//$values = $info['it_3dep'];		$temp_text=$temp_text.Cutie_jy_td($num,$values);$num += 1;
-		$values = $info['it_screenname'];		$temp_text=$temp_text.Cutie_jy_td($num,$values);$num += 1;
-		$values = "<a href='https://metlifewelfare.org/".$info['it_url']."' class='btn btn-primary' target='_blank'>보기<a/>";		$temp_text=$temp_text.Cutie_jy_td($num,$values);$num += 1;
+		//$values = $info['it_1dep'];		$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
+		//$values = $info['it_2dep'];		$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
+		//$values = $info['it_3dep'];		$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
+		$values = $info['it_screenname'];		$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
+		$values = "<a href='https://metlifewelfare.org".$info['it_url']."' class='btn btn-primary' target='_blank'>보기<a/>";		$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
 
-
-		if($info['it_url2']!=Null){
-			$values = "<a href='".$info['it_url2']."' class='btn btn-primary' target='_blank'>보기<a/>";		$temp_text=$temp_text.Cutie_jy_td($num,$values);$num += 1;
+		if($info['it_int']!=5){
+			if($info['it_url2']!=Null){
+				$values = "<a href='".$info['it_url2']."' class='btn btn-primary' target='_blank'>보기<a/>";		$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
+			}else{
+				$values = "공사중";		$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;			
+			}
 		}else{
-			$values = "공사중";		$temp_text=$temp_text.Cutie_jy_td($num,$values);$num += 1;
+
+			$values = "<a href='".$info['it_url2']."' class='btn btn-primary' target='_blank'>1안<a/>  / 
+			<a href='/METLIFE_PROTOTYPE/biz/finance/inclusion2.php' class='btn btn-primary' target='_blank'>2안<a/>";	
+			$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
 
 		}
+
 		
-		//$values = $info['it_comment'];		$temp_text=$temp_text.Cutie_jy_td($num,$values);$num += 1;
+		$values = $info['it_comment'];		$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
 		$temp_text=$temp_text."</tr>";
 		$want_text = 	$want_text.$temp_text;
 	}	
@@ -226,31 +233,31 @@
                                     $num = 0;
                                     $num += 1;
 									$values = "상태";
-                                    Cutie_jy_th($num,$values);
+                                    index_table_th($num,$values);
 									  /*
 									$num += 1;
                                     $values = "1depth";
-                                    Cutie_jy_th($num,$values);
+                                    index_table_th($num,$values);
                                  
 									$num += 1;
                                     $values = "2depth";
-                                   // Cutie_jy_th($num,$values);
+                                   // index_table_th($num,$values);
                                     $num += 1;
                                     $values = "3depth";
-                                    Cutie_jy_th($num,$values);
+                                    index_table_th($num,$values);
 									*/
                                     $num += 1;
                                     $values = "화면명";
-                                    Cutie_jy_th($num,$values);
+                                    index_table_th($num,$values);
                                     $num += 1;
                                     $values = "기존 URL";
-                                    Cutie_jy_th($num,$values);
+                                    index_table_th($num,$values);
                                     $num += 1;
                                     $values = "신규";
-                                    Cutie_jy_th($num,$values);
+                                    index_table_th($num,$values);
                                     $num += 1;
                                     $values = "코멘트";
-                                    //Cutie_jy_th($num,$values);
+                                    index_table_th($num,$values);
                                 
                                 ?>
 						        
@@ -294,16 +301,16 @@
                                     $num = 0;
                                     $num += 1;
 									$values = "상태";
-                                    Cutie_jy_th($num,$values);
+                                    index_table_th($num,$values);
 									$num += 1;
                                     $values = "기능명";
-                                    Cutie_jy_th($num,$values);
+                                    index_table_th($num,$values);
                                     $num += 1;
                                     $values = "신규";
-                                    Cutie_jy_th($num,$values);
+                                    index_table_th($num,$values);
                                     $num += 1;
                                     $values = "코멘트";
-                                    //Cutie_jy_th($num,$values);
+                                    //index_table_th($num,$values);
                                 
                                 ?>
 						        
@@ -314,15 +321,15 @@
 							<?php
 								
 								$want_array = array("진행중","메인 비주얼 관리","/METLIFE_PROTOTYPE/admin/main.php","기능확인 필요");
-								Cutie_jy_admin($want_array);						
+								index_table_admin($want_array);						
 								$want_array = array("진행중","메인 게시물 관리","/METLIFE_PROTOTYPE/admin/01.main.php","기능확인 필요");
-								Cutie_jy_admin($want_array);						
-								$want_array = array("진행중","후기 관리","#","노출 콘텐츠 확인 필요");
-								Cutie_jy_admin2($want_array);
+								index_table_admin($want_array);						
+								$want_array = array("진행중","후기 관리","/METLIFE_PROTOTYPE/admin/02.main.php","노출 콘텐츠 확인 필요");
+								index_table_admin($want_array);
 								$want_array = array("진행중","공지사항 관리","#","노출 콘텐츠 확인 필요");
-								Cutie_jy_admin2($want_array);
+								index_table_admin2($want_array);
 								$want_array = array("진행중","뉴스 관리","#","노출 콘텐츠 확인 필요");
-								Cutie_jy_admin2($want_array);
+								index_table_admin2($want_array);
 						
 
 

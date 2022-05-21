@@ -34,7 +34,7 @@
 				<a href="/ntapp/program/programList">프로그램 관리</a>
 				<ul class="navbar-2depth">
 					
-					<li><a href="#">후기 관리<공사중></a></li>
+					<li><a href="/METLIFE_PROTOTYPE/admin/02.main.php">후기 관리</a></li>
 					
 				</ul>
 			</li>

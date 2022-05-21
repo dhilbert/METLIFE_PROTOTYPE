@@ -91,13 +91,13 @@
 										$text = '제목';
 										$names = 'mb_text';
 										$value = $mb_text;
-										cute_jy_text($text,$names,$value);
+										table_td_text($text,$names,$value);
 										
 										
 										$text = '분류';
 										$names = 'mb_kind';
 										$value = $mb_kind;
-										cute_jy_text($text,$names,$value);
+										table_td_text($text,$names,$value);
 										
 									
 									?>
@@ -114,17 +114,17 @@
 										$text = '전시 텍스트';
 										$names = 'mb_showtext';
 										$value = $mb_showtext;
-										cute_jy_text($text,$names,$value);
+										table_td_text($text,$names,$value);
 									
 										$text = '이동 링크';
 										$names = 'mb_link';
 										$value = $mb_link;
-										cute_jy_text($text,$names,$value);
+										table_td_text($text,$names,$value);
 									
 										$text = '버튼명';
 										$names = 'mb_ctaname';
 										$value = $mb_ctaname;
-										cute_jy_text($text,$names,$value);
+										table_td_text($text,$names,$value);
 									
 									
 									
