@@ -2,7 +2,7 @@
 include_once('../lib/dbcon.php');
 
 
-function replace_textss($text){
+function replace_texts($text){
 	$text = str_replace('"' , '\"', $text);
 	$text = str_replace("'" , "\'", $text);	
 	return $text;
