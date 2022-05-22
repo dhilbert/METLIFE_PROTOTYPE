@@ -5,25 +5,10 @@
   //  include_once('banner.php');
   
 
-  function m_page_view(){ return preg_match('/phone|samsung|lgtel|mobile|[^A]skt|nokia|blackberry|android|sony/i', $_SERVER['HTTP_USER_AGENT']); } 
-  
-  
-  
-  if (m_page_view()){
-      
-    
-    
-
-
-}else{
-    
-    
-
+ function m_page_view(){ return preg_match('/phone|samsung|lgtel|mobile|[^A]skt|nokia|blackberry|android|sony/i', $_SERVER['HTTP_USER_AGENT']); } 
+if (m_page_view()){}else{
     $array = array("재단 사업 및 활동","재단 사업","Financial Health","Inclusion Plus");
     hd_bread_crumb($array);
-
-
-
 }
 
 
@@ -97,7 +82,7 @@
         <div class="col-12 col-md-11 offset-md-1   responsive-columns">
                 <div class="richtext richtext-wysiwyg">
                     <p>
-                    함께 성장할 때 우리 금융사회는 더욱 건강 해집니다. 메트라이프생명 사회공헌재단은 Inclusion Plus를 통해 금융소외계층부터 모두의 건강한 금융 생활(Financial health)을 더 건강하게 만드는 솔루션 발굴과 사회혁신 조직의 역량 강화를 지원합니다. 본 프로그램을 통해 금융소외계층의 금융상품 및 서비스 접근을 높이고, <span class="rte-smart-highlight">금융지식을 습득하도록 돕고 경제활동 참여가 낮은 이들의 경제적 자립을 지원할 수 있는 다양한 솔루션 발굴의 장입니다.<</span>
+                    함께 성장할 때 우리 금융사회는 더욱 건강 해집니다. 메트라이프생명 사회공헌재단은 Inclusion Plus를 통해 금융소외계층부터 모두의 건강한 금융 생활(Financial health)을 더 건강하게 만드는 솔루션 발굴과 사회혁신 조직의 역량 강화를 지원합니다. 본 프로그램을 통해 금융소외계층의 금융상품 및 서비스 접근을 높이고, <span class="rte-smart-highlight">금융지식을 습득하도록 돕고 경제활동 참여가 낮은 이들의 경제적 자립을 지원할 수 있는 다양한 솔루션 발굴의 장입니다.</span>
                     
 
 
