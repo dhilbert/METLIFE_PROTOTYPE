@@ -195,7 +195,8 @@
                             <div class="header_panel row">
                                 <h2
                                     class="col-8 offset-md-1 font-header-4 font-header-4-sm font-header-2-md value-prop__title">
-                                    숫자로 보는 사회공헌
+                                    누적 나눔활동(2005.01.01~2021.12.31)
+
                                 </h2>
                                 <div class="col-4 col-md-2 value-prop__controls">
                                     <a class="carousel-control left js-leftClick" href="#" role="button" tabindex="0"
@@ -230,266 +231,12 @@
                                             <div class="value-prop__item__content  ">
                                                 <div
                                                     class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
-                                                    463 명
+                                                    봉사자
+
                                                 </div>
                                                 <div class="value-prop__item__description font-body-2 font-body-2-sm">
-                                                    <p>나눔에 참여한 직원 및 고객</p>
-                                                    <p>* 2022년 누적<br />
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
+                                                    <p>58,473명</p>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -503,73 +250,10 @@
                                             <div class="value-prop__item__content  ">
                                                 <div
                                                     class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
-                                                    463 시간
+                                                    봉사시간
                                                 </div>
                                                 <div class="value-prop__item__description font-body-2 font-body-2-sm">
-                                                    <p>나눔에 참여한 시간<br />
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
-                                                    <p>
-                                                    </p>
+                                                    <p>192,473시간                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -583,12 +267,12 @@
                                             <div class="value-prop__item__content  ">
                                                 <div
                                                     class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
-                                                    430 명
+                                                    수혜자
+
                                                 </div>
                                                 <div class="value-prop__item__description font-body-2 font-body-2-sm">
-                                                    <p>자원봉사단의 나눔을 받은 수혜자</p>
-                                                    <p>
-                                                    </p>
+                                                    <p>11,329,008명
+</p>
                                                 </div>
                                             </div>
                                         </div>

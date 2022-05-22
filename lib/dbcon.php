@@ -127,19 +127,19 @@ function main_contents_1($img,$mb_showtext,$mb_showtext_sub,$mb_ctaname){
 <div class="component single-feature-story-breaker component__spacing-bottom ">
     <div class="container">
         <div class="row ">
-            <div class="col-md-1 story-eye-brow-section">
-                <!--
+            <div class="col-md-1 offset-md-1  story-eye-brow-section">
+                
                 <div class="eye-brow-border"></div>
                 <h3 class="eye-brow-text font-eyebrow-1 font-eyebrow-3-sm font-eyebrow-3-md">
-                    FEATURED STORY
+                    NEWS
                 </h3>
-                -->
+                
             </div>
-            <div class="col-12 col-md-11 story-image-mobile">
+            <div class="col-10 col-md-10 story-image-mobile">
                 <div class="story-image" style="background-image: url('admin/img/<?php echo $img  ; ?>');">
                 </div>
             </div>
-            <div class="col-12 col-sm-11 col-md-10 offset-md-1 story-content-mobile story-content" data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+            <div class="col-10 col-sm-10 col-md-10 offset-md-2 story-content-mobile story-content" data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
                 <div class="story-content-container">
                     <div class="row story-textarea">
                       
