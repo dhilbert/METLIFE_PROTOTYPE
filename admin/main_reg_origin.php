@@ -2,6 +2,12 @@
 include_once('../lib/dbcon.php');
 
 
+function replace_textss($text){
+	$text = str_replace('"' , '\"', $text);
+	$text = str_replace("'" , "\'", $text);	
+	return $text;
+
+}
 
 
 
@@ -19,16 +25,16 @@ while($info	 = mysqli_fetch_array($res)){
 
 	$sqls	= "
 	insert main_banner set 
-		mb_text = '".replace_text($info['mb_text'])."',
-		mb_kind = '".replace_text($info['mb_kind'])."',
-		mb_order = '".replace_text($info['mb_order'])."',
-		mb_showtext = '".replace_text($info['mb_showtext'])."',
-		mb_link = '".replace_text($info['mb_link'])."',
-		mb_ctaname = '".replace_text($info['mb_ctaname'])."',
-		mb_pc_file = '".replace_text($info['mb_pc_file'])."',
-		mb_mo_file = '".replace_text($info['mb_mo_file'])."',
-		mb_show = '".replace_text($info['mb_show'])."',
-		mb_adminname = '".replace_text($info['mb_adminname'])."',
+		mb_text = '".replace_texts($info['mb_text'])."',
+		mb_kind = '".replace_texts($info['mb_kind'])."',
+		mb_order = '".replace_texts($info['mb_order'])."',
+		mb_showtext = '".replace_texts($info['mb_showtext'])."',
+		mb_link = '".replace_texts($info['mb_link'])."',
+		mb_ctaname = '".replace_texts($info['mb_ctaname'])."',
+		mb_pc_file = '".replace_texts($info['mb_pc_file'])."',
+		mb_mo_file = '".replace_texts($info['mb_mo_file'])."',
+		mb_show = '".replace_texts($info['mb_show'])."',
+		mb_adminname = '".replace_texts($info['mb_adminname'])."',
 		mb_regtime = '".$info['mb_regtime']."',
 		mb_update = '".$info['mb_update']."';
 		
@@ -99,12 +105,12 @@ $mb_mo_file =$mb_pc_file;
 
 $sql	= "
   insert main_banner set 
-  mb_text = '".replace_text($mb_text)."',
-	mb_kind = '".replace_text($mb_kind)."',
-	mb_order = '".replace_text($mb_order)."',
-	mb_showtext = '".replace_text($mb_showtext)."',
-	mb_link = '".replace_text($mb_link)."',
-	mb_ctaname = '".replace_text($mb_ctaname)."',
+  mb_text = '".replace_texts($mb_text)."',
+	mb_kind = '".replace_texts($mb_kind)."',
+	mb_order = '".replace_texts($mb_order)."',
+	mb_showtext = '".replace_texts($mb_showtext)."',
+	mb_link = '".replace_texts($mb_link)."',
+	mb_ctaname = '".replace_texts($mb_ctaname)."',
 	mb_pc_file = '".$mb_pc_file.".jpg',
 	mb_mo_file = '".$mb_mo_file.".jpg',
 	mb_show ='". $mb_show."',

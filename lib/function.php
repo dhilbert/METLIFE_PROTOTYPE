@@ -16,7 +16,7 @@ function replace_text($text){
 	return $text;
 
 }
-	function hd_bread_crumb($array){
+function hd_bread_crumb($array){
 ?>
 <div class="bread-crumb">
 <script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/bread-crumb/clientlibs.min.js" defer></script>
