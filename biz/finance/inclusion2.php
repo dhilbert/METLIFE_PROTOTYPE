@@ -5,11 +5,33 @@
   //  include_once('banner.php');
   
 
-  $array = array("재단 사업 및 활동","재단 사업","Financial Health","Inclusion Plus");
-  hd_bread_crumb($array);
+  function m_page_view(){ return preg_match('/phone|samsung|lgtel|mobile|[^A]skt|nokia|blackberry|android|sony/i', $_SERVER['HTTP_USER_AGENT']); } 
+  
+  
+  
+  if (m_page_view()){
+      
+    
+    
+
+
+}else{
+    
+    
+
+    $array = array("재단 사업 및 활동","재단 사업","Financial Health","Inclusion Plus");
+    hd_bread_crumb($array);
+
+
+
+}
+
+
+  
+
+
+
 ?>
-
-
 
 
     
@@ -110,29 +132,13 @@
 
 
 
+<div class="content-parsys parsys">
+    <div class="value-prop parbase">
+<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.js" defer></script>
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.css" type="text/css">
 
-
-
-<div class="value-prop parbase">
-
-
-
-
-
-    
-<script type="text/javascript" src="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.js" defer></script>
-
-
-
-    
-<link rel="stylesheet" href="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.css" type="text/css">
-
-
-
-
-
-<section class="component value-prop component__spacing-bottom   " role="region" aria-labelledby="value_prop_1608960995--labelledby" aria-roledescription="carousel">
-    <div id="value_prop_1608960995--labelledby" class="d-none" aria-hidden="true"></div>
+<section class="component value-prop component__spacing-bottom   " role="region" aria-labelledby="value_prop--labelledby" aria-roledescription="carousel">
+    <div id="value_prop--labelledby" class="d-none" aria-hidden="true"></div>
     <div class="gradiant-div"></div>
     <div class="value-prop__wrapper">
         <div class="container">
@@ -143,22 +149,18 @@
             </div>
             <div class="header_panel row">
                 
-                    <h2 class="col-8 offset-md-1 font-header-4 font-header-4-sm font-header-2-md value-prop__title">
-                        <p>주요성과
-</p>
-
-                    </h2>
+                    <h2 class="col-8 offset-md-1 font-header-4 font-header-4-sm font-header-2-md value-prop__title"><p>주요성과</p>                    </h2>
                 
                 <div class="col-4 col-md-2 value-prop__controls">
                     <a class="carousel-control left js-leftClick" href="#" role="button" tabindex="0" aria-label="Prev">
                         <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
-                            <use xlink:href="https://evolution.metlife.com/static/images/icons-metlife.svg#icon-chevron-left" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                            <use xlink:href="../../css/icons-metlife.svg#icon-chevron-left" aria-hidden="true" tabindex="-1" focusable="false"></use>
                         </svg>
                     </a>
                     <span class="updatepipe"></span>
                     <a class="carousel-control right js-rightClick" href="#" role="button" tabindex="0" aria-label="Next">
                         <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
-                            <use xlink:href="https://evolution.metlife.com/static/images/icons-metlife.svg#icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                            <use xlink:href="../../css/icons-metlife.svg#icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false"></use>
                         </svg>
                     </a>
                 </div>
@@ -166,7 +168,7 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 offset-md-1 col-lg-11-offset-1-right-edge stacked carousel-4-items value-prop__item-container" data-aos="fade-left" data-aos-delay="350" data-aos-duration="750" aria-live="assertive" aria-atomic="true">
+                <div class="col-12 offset-md-1 col-lg-11-offset-1-right-edge carousel-4-items carousel-4-items value-prop__item-container" data-aos="fade-left" data-aos-delay="350" data-aos-duration="750" aria-live="assertive" aria-atomic="true">
                     
                         <div class="value-prop__item ">
                             <div class="value-prop__container">
@@ -178,8 +180,7 @@
                                 <div class="value-prop__item__content  ">
                                     
                                         <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
-                                            <p>총 참여 기업 수
-</p>
+                                            <p>총 참여 기업 수</p>
 
                                         </div>
                                     
@@ -189,11 +190,8 @@
                                     </div>
                                     
                                         
-                                    
                                 </div>
                             </div>
-                            
-                                <div class="horizantal-line d-block d-sm-none"></div>
                             
                         </div>
                     
@@ -207,22 +205,19 @@
                                 <div class="value-prop__item__content  ">
                                     
                                         <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
-                                            <p>금융생활 솔루션 수혜자
-</p>
+                                            <p>금융생활 솔루션 수혜자</p>
 
                                         </div>
                                     
                                     <div class="value-prop__item__description font-body-2 font-body-2-sm">
-                                        <p>667,509명
-</p>
+                                        <p>667,509명</p>
 
                                     </div>
                                     
-                                        
+                                      
+                                    
                                 </div>
                             </div>
-                            
-                                <div class="horizantal-line d-block d-sm-none"></div>
                             
                         </div>
                     
@@ -236,31 +231,23 @@
                                 <div class="value-prop__item__content  ">
                                     
                                         <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
-                                            <p>후속투자금액
-</p>
+                                            <p>후속투자금액</p>
 
                                         </div>
                                     
                                     <div class="value-prop__item__description font-body-2 font-body-2-sm">
-                                        <p>62억 5천만원
-</p>
+                                        <p>62억 5천만원</p>
 
                                     </div>
-                                    
-                                       
-                                    
                                 </div>
                             </div>
                             
-                                <div class="horizantal-line d-block d-sm-none"></div>
-                            
                         </div>
-                    
                         <div class="value-prop__item ">
                             <div class="value-prop__container">
                                 
                                     <div class="value-prop__item__bg">
-                                        <img src="https://evolution.metlife.com/content/dam/metlifecom/global/web-icons/utility2/utility-2_chat_64p.svg" alt="" aria-hidden="true"/>
+                                        <img src="https://evolution.metlife.com/content/dam/metlifecom/global/web-icons/insurance/i_disability_120p.svg" alt="" aria-hidden="true"/>
                                     </div>
                                 
                                 <div class="value-prop__item__content  ">
@@ -276,11 +263,12 @@
 </p>
 
                                     </div>
-                                    
-                                        
                                 </div>
                             </div>
-                            <div class="value-prop__item ">
+                            
+                        </div>
+                    
+                        <div class="value-prop__item ">
                             <div class="value-prop__container">
                                 
                                     <div class="value-prop__item__bg">
@@ -291,14 +279,12 @@
                                     
                                         <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
                                             <p>고용창출
-
 </p>
 
                                         </div>
                                     
                                     <div class="value-prop__item__description font-body-2 font-body-2-sm">
                                         <p>72명
-
 </p>
 
                                     </div>
@@ -306,16 +292,6 @@
                                         
                                 </div>
                             </div>
-
-
-
-
-
-
-
-
-                            
-                                <div class="horizantal-line d-block d-sm-none"></div>
                             
                         </div>
                     
@@ -324,7 +300,6 @@
         </div>
     </div>
 </section></div>
-
 
 
 
@@ -436,7 +411,7 @@
 
                         <ul class="cliff-notes__bullets-list">
                         
-                        <p> <b>맞춤형 엑셀러레이팅 (Acceralating) - 최대 10개 조직 선정 / 사업지원금 1천만원</b></p>
+                        <li>최대 10개 조직 선정 / 사업지원금 1천만원</li>
                         <li>전문 분야 컨설팅 : ICT, 법률, 마케팅 등 필요한 영역 멘토링, 특정 문제 원인 진단 및 솔루션 컨설팅</li>
                         <li>심화 경영진단 및 전략 멘토링: 비즈니스 모델 강화, MP 작성을 통한 사회적 가치 극대화</li>
                         <li>IR 및 피칭 컨설팅: 투자유치 기초준비, IR Deck 작성, 피칭 스킬 교육 등</li>
@@ -469,7 +444,7 @@
 
                         <ul class="cliff-notes__bullets-list">
                         
-                        <p> <b>임팩트 투자 (Impact Investment)</b></p>
+                        
                         <li>임팩트투자 데모데이 'Deal Share Live’: 사업계획안 피칭 및 투자 심사, 임팩트 투자자와의 Roundtable을 통한 후속 투자유치 기회 제공</li>
                         <li>임팩트 투자 조직 선정: 성장성 및 Social Value 등 심사, TOP 3 기업 선정 및 임팩트 투자(기업당 5천만원)</li>
                         <li>공동운영기관 최소 1개팀 이상 2억원 및 TIPS 7억 후속 투자기회</li>
@@ -502,7 +477,7 @@
 
                         <ul class="cliff-notes__bullets-list">
                         
-                        <p> <b>TOP3 조직 – 글로벌 프로그램 참여</b></p>
+                      
                             <li>타국가 사회혁신 조직과 네트워킹 프로그램                        </li>
                             <li>해외 Fin-tech관련 이벤트 참여</li>
 
@@ -552,7 +527,7 @@
 
                     <div class="col-12 col-sm-8 col-md-8 cliff-notes__bullets">
                         <ul class="cliff-notes__bullets-list">
-                            <p> <b>사업피칭 완성을 위한 교육</b></p>
+                           
                             <li>메트라이프생명 임직원 멘토링</li>
                             <li>사업신청서(Pitch Deck) 작성관련 온라인 교육</li>
                             
@@ -578,7 +553,7 @@
 
                     <div class="col-12 col-sm-8 col-md-8 cliff-notes__bullets">
                         <ul class="cliff-notes__bullets-list">
-                            <p> <b>Top 5 참여혜택</b></p>
+                          
                             <li>총 상금 $100,000 (1억원) 차등지급                            </li>
                             <li>Top 2팀은 뉴욕 Global Summit 참여기회 제공</li>
                             <li>데모데이 참가 비용 지원 (주거비/교통비)</li>

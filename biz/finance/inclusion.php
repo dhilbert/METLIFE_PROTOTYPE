@@ -4,9 +4,11 @@
     include_once('../../head.php');
   //  include_once('banner.php');
   
-
-  $array = array("재단 사업 및 활동","재단 사업","Financial Health","Inclusion Plus");
-  hd_bread_crumb($array);
+ function m_page_view(){ return preg_match('/phone|samsung|lgtel|mobile|[^A]skt|nokia|blackberry|android|sony/i', $_SERVER['HTTP_USER_AGENT']); } 
+ if (m_page_view()){}else{
+     $array = array("재단 사업 및 활동","재단 사업","Financial Health","Inclusion Plus");
+     hd_bread_crumb($array);
+ }
 ?>
 
 
@@ -40,28 +42,14 @@
         </div>
     </div>
 </div>
-    
 
+<div class="content-parsys parsys">
     <div class="value-prop parbase">
+<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.js" defer></script>
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.css" type="text/css">
 
-
-
-
-
-    
-<script type="text/javascript" src="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.js" defer></script>
-
-
-
-    
-<link rel="stylesheet" href="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.css" type="text/css">
-
-
-
-
-
-<section class="component value-prop component__spacing-bottom   " role="region" aria-labelledby="value_prop_1608960995--labelledby" aria-roledescription="carousel">
-    <div id="value_prop_1608960995--labelledby" class="d-none" aria-hidden="true"></div>
+<section class="component value-prop component__spacing-bottom   " role="region" aria-labelledby="value_prop--labelledby" aria-roledescription="carousel">
+    <div id="value_prop--labelledby" class="d-none" aria-hidden="true"></div>
     <div class="gradiant-div"></div>
     <div class="value-prop__wrapper">
         <div class="container">
@@ -72,22 +60,18 @@
             </div>
             <div class="header_panel row">
                 
-                    <h2 class="col-8 offset-md-1 font-header-4 font-header-4-sm font-header-2-md value-prop__title">
-                        <p>주요성과
-</p>
-
-                    </h2>
+                    <h2 class="col-8 offset-md-1 font-header-4 font-header-4-sm font-header-2-md value-prop__title"><p>주요성과</p>                    </h2>
                 
                 <div class="col-4 col-md-2 value-prop__controls">
                     <a class="carousel-control left js-leftClick" href="#" role="button" tabindex="0" aria-label="Prev">
                         <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
-                            <use xlink:href="/static/images/icons-metlife.svg#icon-chevron-left" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                            <use xlink:href="../../css/icons-metlife.svg#icon-chevron-left" aria-hidden="true" tabindex="-1" focusable="false"></use>
                         </svg>
                     </a>
                     <span class="updatepipe"></span>
                     <a class="carousel-control right js-rightClick" href="#" role="button" tabindex="0" aria-label="Next">
                         <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
-                            <use xlink:href="/static/images/icons-metlife.svg#icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                            <use xlink:href="../../css/icons-metlife.svg#icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false"></use>
                         </svg>
                     </a>
                 </div>
@@ -95,7 +79,7 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 offset-md-1 col-lg-11-offset-1-right-edge stacked carousel-4-items value-prop__item-container" data-aos="fade-left" data-aos-delay="350" data-aos-duration="750" aria-live="assertive" aria-atomic="true">
+                <div class="col-12 offset-md-1 col-lg-11-offset-1-right-edge carousel-4-items carousel-4-items value-prop__item-container" data-aos="fade-left" data-aos-delay="350" data-aos-duration="750" aria-live="assertive" aria-atomic="true">
                     
                         <div class="value-prop__item ">
                             <div class="value-prop__container">
@@ -107,8 +91,7 @@
                                 <div class="value-prop__item__content  ">
                                     
                                         <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
-                                            <p>총 참여 기업 수
-</p>
+                                            <p>총 참여 기업 수</p>
 
                                         </div>
                                     
@@ -118,11 +101,8 @@
                                     </div>
                                     
                                         
-                                    
                                 </div>
                             </div>
-                            
-                                <div class="horizantal-line d-block d-sm-none"></div>
                             
                         </div>
                     
@@ -136,22 +116,19 @@
                                 <div class="value-prop__item__content  ">
                                     
                                         <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
-                                            <p>금융생활 솔루션 수혜자
-</p>
+                                            <p>금융생활 솔루션 수혜자</p>
 
                                         </div>
                                     
                                     <div class="value-prop__item__description font-body-2 font-body-2-sm">
-                                        <p>667,509명
-</p>
+                                        <p>667,509명</p>
 
                                     </div>
                                     
-                                        
+                                      
+                                    
                                 </div>
                             </div>
-                            
-                                <div class="horizantal-line d-block d-sm-none"></div>
                             
                         </div>
                     
@@ -165,31 +142,23 @@
                                 <div class="value-prop__item__content  ">
                                     
                                         <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
-                                            <p>후속투자금액
-</p>
+                                            <p>후속투자금액</p>
 
                                         </div>
                                     
                                     <div class="value-prop__item__description font-body-2 font-body-2-sm">
-                                        <p>62억 5천만원
-</p>
+                                        <p>62억 5천만원</p>
 
                                     </div>
-                                    
-                                       
-                                    
                                 </div>
                             </div>
                             
-                                <div class="horizantal-line d-block d-sm-none"></div>
-                            
                         </div>
-                    
                         <div class="value-prop__item ">
                             <div class="value-prop__container">
                                 
                                     <div class="value-prop__item__bg">
-                                        <img src="https://evolution.metlife.com/content/dam/metlifecom/global/web-icons/utility2/utility-2_chat_64p.svg" alt="" aria-hidden="true"/>
+                                        <img src="https://evolution.metlife.com/content/dam/metlifecom/global/web-icons/insurance/i_disability_120p.svg" alt="" aria-hidden="true"/>
                                     </div>
                                 
                                 <div class="value-prop__item__content  ">
@@ -205,11 +174,12 @@
 </p>
 
                                     </div>
-                                    
-                                        
                                 </div>
                             </div>
-                            <div class="value-prop__item ">
+                            
+                        </div>
+                    
+                        <div class="value-prop__item ">
                             <div class="value-prop__container">
                                 
                                     <div class="value-prop__item__bg">
@@ -220,14 +190,12 @@
                                     
                                         <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
                                             <p>고용창출
-
 </p>
 
                                         </div>
                                     
                                     <div class="value-prop__item__description font-body-2 font-body-2-sm">
                                         <p>72명
-
 </p>
 
                                     </div>
@@ -235,16 +203,6 @@
                                         
                                 </div>
                             </div>
-
-
-
-
-
-
-
-
-                            
-                                <div class="horizantal-line d-block d-sm-none"></div>
                             
                         </div>
                     
@@ -253,6 +211,22 @@
         </div>
     </div>
 </section></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
