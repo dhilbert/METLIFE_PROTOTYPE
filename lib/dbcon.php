@@ -405,6 +405,78 @@ function main_contents_5($img,$mb_showtext,$mb_showtext_sub,$mb_ctaname){
             </div>
 <?php
 }
+
+
+
+
+
+function index_table_th($value,$values){
+  echo '<th data-field="data_'.$value.'" data-sortable="true">'.$values.'</th>';
+
+}
+function Cutie_hd_td($value,$values){
+  return '<td data-field="data_'.$value.'" data-sortable="true">'.$values.'</td>';
+
+} 
+function Cutie_hd_td2($value,$values){
+  echo  '<td data-field="data_'.$value.'" data-sortable="true">'.$values.'</td>';
+
+}
+
+
+
+function index_table_admin($array){
+echo "<tr>"	;
+$num = 0;
+$num += 1;
+$values = $array[0];
+Cutie_hd_td2($num,$values);
+$num += 1;
+$values = $array[1];
+Cutie_hd_td2($num,$values);
+$num += 1;
+$values = "<a href='".$array[2]."' class='btn btn-primary' target='_blank'>보기<a/>";
+Cutie_hd_td2($num,$values);
+$num += 1;
+$values = $array[3];
+Cutie_hd_td2($num,$values);
+echo "</tr>"	;
+
+}
+
+
+
+
+
+function index_table_admin2($array){
+echo "<tr>"	;
+$num = 0;
+$num += 1;
+$values = $array[0];
+Cutie_hd_td2($num,$values);
+$num += 1;
+$values = $array[1];
+Cutie_hd_td2($num,$values);
+$num += 1;
+$values = "공사중";
+Cutie_hd_td2($num,$values);
+$num += 1;
+$values = $array[3];
+Cutie_hd_td2($num,$values);
+echo "</tr>"	;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 ?>
 
 

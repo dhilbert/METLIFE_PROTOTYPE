@@ -23,64 +23,7 @@
 <?php
     
     include_once('lib/dbcon.php');
-    function index_table_th($value,$values){
-        echo '<th data-field="data_'.$value.'" data-sortable="true">'.$values.'</th>';
-
-    }
-    function Cutie_hd_td($value,$values){
-        return '<td data-field="data_'.$value.'" data-sortable="true">'.$values.'</td>';
-
-    } 
-	function Cutie_hd_td2($value,$values){
-        echo  '<td data-field="data_'.$value.'" data-sortable="true">'.$values.'</td>';
-
-    }
-
-
-
-	function index_table_admin($array){
-		echo "<tr>"	;
-			$num = 0;
-			$num += 1;
-			$values = $array[0];
-			Cutie_hd_td2($num,$values);
-			$num += 1;
-			$values = $array[1];
-			Cutie_hd_td2($num,$values);
-			$num += 1;
-			$values = "<a href='".$array[2]."' class='btn btn-primary' target='_blank'>보기<a/>";
-			Cutie_hd_td2($num,$values);
-			$num += 1;
-			$values = $array[3];
-			Cutie_hd_td2($num,$values);
-		echo "</tr>"	;
-
-    }
-
-
-
-
-
-	function index_table_admin2($array){
-		echo "<tr>"	;
-			$num = 0;
-			$num += 1;
-			$values = $array[0];
-			Cutie_hd_td2($num,$values);
-			$num += 1;
-			$values = $array[1];
-			Cutie_hd_td2($num,$values);
-			$num += 1;
-			$values = "공사중";
-			Cutie_hd_td2($num,$values);
-			$num += 1;
-			$values = $array[3];
-			Cutie_hd_td2($num,$values);
-		echo "</tr>"	;
-
-    }
-
-
+    
 
 
 
@@ -134,7 +77,11 @@
 		}else{
 
 			$values = "<a href='".$info['it_url2']."' class='btn btn-primary' target='_blank'>1안<a/>  / 
-			<a href='/METLIFE_PROTOTYPE/biz/finance/inclusion2.php' class='btn btn-primary' target='_blank'>2안<a/>";	
+			<a href='/METLIFE_PROTOTYPE/biz/finance/inclusion2.php' class='btn btn-primary' target='_blank'>2안<a/> / <a href='/METLIFE_PROTOTYPE/biz/finance/inclusion3.php' class='btn btn-primary' target='_blank'>3안<a/>
+
+			
+			
+			";	
 			$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
 
 		}
