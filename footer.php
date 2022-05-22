@@ -41,7 +41,7 @@
                             <a class="footer-logo__link" href="https://www.metlife.co.kr/" target="_self"
                                 aria-label="MetLife Korea">
                                 <img class="footer-logo__image"
-                                    src="https://www.metlife.co.kr/content/dam/metlife/kr/author/layout/footer/Footer_Logo-202111.png"
+                                    src="https://metlifewelfare.org/images/app/logo.png"
                                     alt="MetLife Korea" />
                             </a>
                         </div>

@@ -133,21 +133,21 @@
         src="https://www.metlife.co.kr/content/dam/metlife/kr/author/homepage/alert-notification-message-custom-single-pageonly-v2.js"
         defer></script>
     
-        <link rel="stylesheet"        href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Noto+Sans:400,700&amp;subset=korean,latin-ext" />
+     <link rel="stylesheet"        href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Noto+Sans:400,700&amp;subset=korean,latin-ext" />
     <link rel="stylesheet" href="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/clientlibs/clientlib-language/ko.min.css"        type="text/css">
     <link rel="stylesheet" href="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/clientlibs/clientlib-base/global.min.css"        type="text/css">
     <link rel="stylesheet" href="https://www.metlife.co.kr/content/dam/metlife/kr/author/homepage/metlife-kr-homepage.css" />
     <link rel="stylesheet" href="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/components/content/global/renew_2022/renew_2022.css">
     <script type="text/javascript" src="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/clientlibs/clientlib-jquery.min.js"       defer></script>
     <script type="text/javascript" src="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/clientlibs/clientlib-base/global.min.js"        defer></script>
-	<script type="text/javascript" src="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/components/content/global/header/clientlibs.min.js" defer></script>
+	<!--<script type="text/javascript" src="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/components/content/global/immersive-brand-navigation/clientlibs.min.js"                    defer></script>-->
+    <script type="text/javascript" src="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/components/content/global/header/clientlibs.min.js" defer></script>
     <link rel="stylesheet" href="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/components/content/global/header/clientlibs.min.css"        type="text/css">
-    <script type="text/javascript"                    src="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/components/content/global/immersive-brand-navigation/clientlibs.min.js"                    defer></script>
+    
     <link rel="stylesheet"                   href="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/components/content/global/immersive-brand-navigation/clientlibs.min.css"                    type="text/css">
 
 
     </head>
-
 <body>
     <h1 class="seo-hidden" aria-hidden="true">메트라이프</h1>
     <script type="text/javascript" defer>
@@ -163,14 +163,14 @@
                             <svg class="icon icon-menu header__navigation-trigger" aria-hidden="true" tabindex="-1"
                                 focusable="false">
                                 <title id="navmenu">Navigation</title>
-                                <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-menu" aria-hidden="true"
+                                <use xlink:href="css/icons-metlife.svg#icon-menu" aria-hidden="true"
                                     tabindex="-1" focusable="false"></use>
                             </svg>
                         </a>
                     </div>
                     <div class="header__logo-container">
-                        <a href="https://www.metlife.co.kr/" target="_self">
-                            <img src="https://www.metlife.co.kr/content/dam/metlife/kr/author/layout/header/Header-Logo-New-202111.png"
+                        <a href="http://3.36.83.6/METLIFE_PROTOTYPE/main.php" target="_self">
+                            <img src="https://metlifewelfare.org/images/app/logo.png"
                                 alt="Metlife logo" class="header__logo" />
                         </a>
                     </div>
@@ -182,7 +182,7 @@
                                 재단 사업 및 활동
                                 <svg class="icon icon-chevron-down" aria-hidden="true" tabindex="-1" focusable="false"
                                     aria-label="Aria Label" role="button">
-                                    <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-chevron-down"
+                                    <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-down"
                                         aria-hidden="true" tabindex="-1" focusable="false"></use>
                                 </svg>
                                 <span class="sr-only menu-state">: Collapsed</span>
@@ -194,7 +194,7 @@
                                 재단 소식
                                 <svg class="icon icon-chevron-down" aria-hidden="true" tabindex="-1" focusable="false"
                                     aria-label="Aria Label" role="button">
-                                    <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-chevron-down"
+                                    <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-down"
                                         aria-hidden="true" tabindex="-1" focusable="false"></use>
                                 </svg>
                                 <span class="sr-only menu-state">: Collapsed</span>
@@ -206,7 +206,7 @@
                                 재단 소개
                                 <svg class="icon icon-chevron-down" aria-hidden="true" tabindex="-1" focusable="false"
                                     aria-label="Aria Label" role="button">
-                                    <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-chevron-down"
+                                    <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-down"
                                         aria-hidden="true" tabindex="-1" focusable="false"></use>
                                 </svg>
                                 <span class="sr-only menu-state">: Collapsed</span>
@@ -220,7 +220,7 @@
                                     target="_blank" aria-label="로그인 ">
                                     <svg class="icon icon-profile2" aria-hidden="true" tabindex="-1" focusable="false">
                                         <title>로그인 </title>
-                                        <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-profile2"
+                                        <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-profile2"
                                             aria-hidden="true" tabindex="-1" focusable="false"></use>
                                     </svg>
                                     <span class="header__login-label font-meta-1">
@@ -236,7 +236,7 @@
                                 <svg class="icon icon-search" aria-hidden="true" tabindex="-1" focusable="false"
                                     aria-label="Search" role="button">
                                     <title>Search</title>
-                                    <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-search" aria-hidden="true"
+                                    <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-search" aria-hidden="true"
                                         tabindex="-1" focusable="false"></use>
                                 </svg>
                                 <span class="d-sm-none header__search-label font-meta-1" aria-hidden="true">
@@ -253,14 +253,14 @@
         <div class="container">
             <div class="row navigation__menu_mobile-nav-header d-sm-none d-md-none d-lg-none">
                 <div class="header__logo-container">
-                    <a href="https://www.metlife.co.kr/" target="_self">
-                        <img src="https://www.metlife.co.kr/content/dam/metlife/kr/author/layout/header/Header-Logo-New-202111.png"
-                            alt="Metlife logo" class="header__logo" />
-                    </a>
+                <a href="http://3.36.83.6/METLIFE_PROTOTYPE/main.php" target="_self">
+                            <img src="https://metlifewelfare.org/images/app/logo.png"
+                                alt="Metlife logo" class="header__logo" />
+                        </a>
                 </div>
                 <svg class="icon icon-close" tabindex="0" role="button" aria-labelledby="title">
                     <title id="title">close</title>
-                    <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-close"></use>
+                    <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-close"></use>
                 </svg>
             </div>
             <div class="row navigation__menu_mobile-utility d-md-none d-lg-none">
@@ -270,7 +270,7 @@
                             aria-label="로그인 ">
                             <svg class="icon icon-profile2" aria-hidden="true" tabindex="-1" focusable="false">
                                 <title>로그인 </title>
-                                <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-profile2" aria-hidden="true"
+                                <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-profile2" aria-hidden="true"
                                     tabindex="-1" focusable="false"></use>
                             </svg>
                             <span class="header__login-label font-meta-1">
@@ -283,7 +283,7 @@
                 <svg class="icon icon-close d-none d-sm-block" tabindex="0" role="button"
                     aria-labelledby="hamburger-tab-close">
                     <title id="hamburger-tab-close">Close</title>
-                    <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-close"></use>
+                    <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-close"></use>
                 </svg>
             </div>
             <div class="row navigation__menu-row d-md-none d-lg-none section1" data-section="section1" id="section1">
@@ -294,7 +294,7 @@
                         aria-label="재단 사업" data-section="재단 사업" role="button" aria-controls="category_0">
                         재단 사업
                         <svg class="icon icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false">
-                            <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-chevron-right" aria-hidden="true"
+                            <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-right" aria-hidden="true"
                                 tabindex="-1" focusable="false"></use>
                         </svg>
                     </div>
@@ -302,7 +302,7 @@
                         aria-label="사업 성과" data-section="사업 성과" role="button" aria-controls="category_1">
                         사업 성과
                         <svg class="icon icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false">
-                            <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-chevron-right" aria-hidden="true"
+                            <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-right" aria-hidden="true"
                                 tabindex="-1" focusable="false"></use>
                         </svg>
                     </div>
@@ -319,7 +319,7 @@
                             aria-label="재단 사업" data-section-title="재단 사업">
                             재단 사업
                             <svg class="icon icon-chevron-down" tabindex="-1" aria-hidden="true" focusable="false">
-                                <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-chevron-down" aria-hidden="true"
+                                <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-down" aria-hidden="true"
                                     tabindex="-1" focusable="false"></use>
                             </svg>
                         </div>
@@ -407,7 +407,7 @@
                             aria-label="사업 성과" data-section-title="사업 성과">
                             사업 성과
                             <svg class="icon icon-chevron-down" tabindex="-1" aria-hidden="true" focusable="false">
-                                <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-chevron-down" aria-hidden="true"
+                                <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-down" aria-hidden="true"
                                     tabindex="-1" focusable="false"></use>
                             </svg>
                         </div>
@@ -489,7 +489,7 @@
                             target="_self">
                             <span>자세히 보기</span>
                             <svg class="icon icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false">
-                                <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-chevron-right" aria-hidden="true"
+                                <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-right" aria-hidden="true"
                                     tabindex="-1" focusable="false"></use>
                             </svg>
                         </a>
@@ -503,7 +503,7 @@
                             data-section-title="재단소식">
                             재단소식
                             <svg class="icon icon-chevron-down" aria-hidden="true" tabindex="-1" focusable="false">
-                                <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-chevron-down" aria-hidden="true"
+                                <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-down" aria-hidden="true"
                                     tabindex="-1" focusable="false"></use>
                             </svg>
                         </div>
@@ -529,10 +529,7 @@
                             role="button" aria-expanded="false" tabindex="0" aria-role="accordion" aria-label="나눔 스토리"
                             data-section-title="나눔 스토리">
                             나눔 스토리
-                            <svg class="icon icon-chevron-down" aria-hidden="true" tabindex="-1" focusable="false">
-                                <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-chevron-down" aria-hidden="true"
-                                    tabindex="-1" focusable="false"></use>
-                            </svg>
+                            
                         </div>
                         <span
                             class="navigation__menu-list-nestedLinks-section-title d-none d-sm-none d-md-block d-lg-block font-eyebrow-4 ">
@@ -566,7 +563,7 @@
                             target="_self">
                             <span>오늘부터, 메트라이프</span>
                             <svg class="icon icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false">
-                                <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-chevron-right" aria-hidden="true"
+                                <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-right" aria-hidden="true"
                                     tabindex="-1" focusable="false"></use>
                             </svg>
                         </a>
@@ -610,7 +607,7 @@
                         <div class="search-overlay__close">
                             <a href="#" tabindex="-1" aria-hidden="true" role="button" aria-label="Close">
                                 <svg class="icon icon-close" aria-hidden="true" tabindex="-1" focusable="false">
-                                    <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-close" aria-hidden="true"
+                                    <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-close" aria-hidden="true"
                                         tabindex="-1" focusable="false"></use>
                                 </svg>
                             </a>
@@ -636,7 +633,7 @@
                                     aria-label="Search">
                                     <svg class="icon brand-1st icon-search-overlay js-searchIcon" aria-hidden="true"
                                         tabindex="-1" focusable="false">
-                                        <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-search"
+                                        <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-search"
                                             aria-hidden="true" tabindex="-1" focusable="false"></use>
                                     </svg>
                                 </a>
@@ -673,7 +670,7 @@
                                             </select>
                                             <svg class="icon icon-caret-down" aria-hidden="true" tabindex="-1"
                                                 focusable="false">
-                                                <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-caret-down"
+                                                <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-caret-down"
                                                     aria-hidden="true" tabindex="-1" focusable="false"></use>
                                             </svg>
                                         </div>
@@ -682,7 +679,7 @@
                                         <span tabindex="0" class="icon icon-search-list active outline-lg" role="button"
                                             aria-pressed="true" aria-label="Aria Label">
                                             <svg class="search_svg">
-                                                <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-search-list"
+                                                <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-search-list"
                                                     aria-hidden="true" tabindex="-1" focusable="false"></use>
                                             </svg>
                                         </span>
@@ -690,7 +687,7 @@
                                         <span tabindex="0" class="icon icon-search-grid outline-lg" role="button"
                                             aria-pressed="false" aria-label="Aria Label">
                                             <svg class="search_svg">
-                                                <use xlink:href="https://www.metlife.co.kr/static/images/icons-metlife.svg#icon-search-grid"
+                                                <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-search-grid"
                                                     aria-hidden="true" tabindex="-1" focusable="false"></use>
                                             </svg>
                                         </span>
