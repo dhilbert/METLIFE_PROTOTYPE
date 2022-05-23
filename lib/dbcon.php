@@ -127,7 +127,7 @@ function main_contents_1($img,$mb_showtext,$mb_showtext_sub,$mb_ctaname){
 <div class="component single-feature-story-breaker component__spacing-bottom ">
     <div class="container">
         <div class="row ">
-            <div class="col-md-1 offset-md-1  story-eye-brow-section">
+        <div class="col-md-1 story-eye-brow-section">
                 
                 <div class="eye-brow-border"></div>
                 <h3 class="eye-brow-text font-eyebrow-1 font-eyebrow-3-sm font-eyebrow-3-md">
@@ -135,15 +135,16 @@ function main_contents_1($img,$mb_showtext,$mb_showtext_sub,$mb_ctaname){
                 </h3>
                 
             </div>
-            <div class="col-10 col-md-10 story-image-mobile">
+            <div class="col-12 col-md-11 story-image-mobile">
                 <div class="story-image" style="background-image: url('admin/img/<?php echo $img  ; ?>');">
                 </div>
             </div>
-            <div class="col-10 col-sm-10 col-md-10 offset-md-2 story-content-mobile story-content" data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+            <div class="col-12 col-sm-11 col-md-10 offset-md-1 story-content-mobile story-content" data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
                 <div class="story-content-container">
                     <div class="row story-textarea">
                       
-                        <h4 class="col-12 col-md-6 story-headline font-header-4-md font-header-5-sm font-content-link-1">
+                    <h4 class="col-12 col-md-6 story-headline font-header-4-md font-header-5-sm font-content-link-1">
+                    
                             <?php echo $mb_showtext;?>
                         </h4>
                         <div class="col-md-6 story-supporting-copy font-body-3-md">
@@ -152,7 +153,7 @@ function main_contents_1($img,$mb_showtext,$mb_showtext_sub,$mb_ctaname){
                         </div>
                     </div>
                     <div class="row">
-                            <div class="col-12 col-md-6 story-cta-button font-cta-1">
+                    <div class="col-12 col-md-6 story-cta-button font-cta-1">
                                 <a href="#" target="_self" aria-label="Learn More">
                                     <span> <?php echo $mb_ctaname;?></span>
                                     <svg class="icon icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false">
@@ -321,24 +322,30 @@ function main_contents_4($img,$mb_showtext,$mb_showtext_sub,$mb_ctaname){
     
 <link rel="stylesheet" href="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/product-promo-breaker/clientlibs.min.css" type="text/css">
 <script type="text/javascript" src="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/product-promo-breaker/clientlibs.min.js" defer></script>
+
+
 <div class="product-promo-breaker component ">
     <div class="container">
+        <div class="row product-promo-breaker__content  ">
+            <div class="product-promo-breaker__content-mobileBackground  d-sm-none d-md-none d-lg-none"></div>
 
-    <div class="row product-promo-breaker__content  ">
 
-    <div class="product-promo-breaker__content-mobileBackground  d-sm-none d-md-none d-lg-none"></div>
-            <div class="col-1 col-sm-6 col-md-9 offset-md-1  product-promo-breaker__content-container ">
+
+
+
+
+            <div class="col-12 col-sm-6 col-md-9   product-promo-breaker__content-container ">
                 <h2 class="font-header-4 font-header-5-sm font-header-2-md product-promo-breaker-title">
                 <?php echo $mb_showtext;?>
                 </h2>
                 <div class="font-body-1 font-body-3-sm product-promo-breaker-copy">
-                    <p> <?php echo $mb_showtext_sub;?></p>
+                    <p><?php echo $mb_showtext_sub;?></p>
 
                 </div>
                 
                     <div class="product-promo-breaker-cta brand-button font-cta-5">
                         <a href="#" target="_self" aria-label="#">
-                            <span><?php echo $mb_ctaname;?></span>
+                        <span><?php echo $mb_ctaname;?></span>
                             
                         </a>
                     </div>
@@ -347,12 +354,25 @@ function main_contents_4($img,$mb_showtext,$mb_showtext_sub,$mb_ctaname){
             <div class="product-promo-breaker-img bg " data-aos="fade-up" data-aos-delay="250" data-aos-duration="350" 
             data-mobile-src="admin/img/<?php echo $img  ; ?>"
             data-desktop-src="admin/img/<?php echo $img  ; ?>"></div>
+            <div class="product-promo-breaker-img bg " data-aos="fade-up" data-aos-delay="250" data-aos-duration="350" data-mobile-src="/content/dam/metlifecom/uxdesign/assets/img/resources/responsive-web/components/content-promo/product-promo-breaker/Work_Visual_Product_Card_regular_optimized.jpg" data-desktop-src="/content/dam/metlifecom/uxdesign/assets/img/resources/responsive-web/components/content-promo/product-promo-breaker/Work_Visual_Product_Card_regular_optimized.jpg"></div>
         </div>
     </div>
 </div>
 
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
 <?php
 }
 
