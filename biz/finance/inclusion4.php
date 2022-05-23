@@ -139,54 +139,54 @@ if (m_page_view()){}else{
                     <div class="row">
                         
                             <div class="col-12 col-sm tool-panel__panel">
-                                
+                                <a class="tool-panel__link" href="#" target="_self">
                                     <img class="tool-panel__link-image" src="https://evolution.metlife.com/content/dam/metlifecom/global/web-icons/auto/a_service-claims_120p.svg" alt=""/>
                                     <span class="tool-panel__link-text font-content-link-1 font-content-link-1-sm">
                                     총 참여 기업 수<br>52개
                                     </span>
-                                
+                                </a>
                                 <div class="tool-panel__link-border"></div>
                             </div>
                         
                             <div class="col-12 col-sm tool-panel__panel">
-                                
+                                <a class="tool-panel__link" href="#" target="_self">
                                     <img class="tool-panel__link-image" src="https://evolution.metlife.com/content/dam/metlifecom/global/web-icons/support/support_contact-us_120p.svg" alt=""/>
                                     <span class="tool-panel__link-text font-content-link-1 font-content-link-1-sm">
                                     금융생활 솔루션 수혜자<br>667,509명
 
                                     </span>
-                                
+                                </a>
                                 <div class="tool-panel__link-border"></div>
                             </div>
                         
                             <div class="col-12 col-sm tool-panel__panel">
-                                
+                                <a class="tool-panel__link" href="#" target="_self">
                                     <img class="tool-panel__link-image" src="https://evolution.metlife.com/content/dam/metlifecom/global/web-icons/utility/utility-1_calendar_120p.svg" alt=""/>
                                     <span class="tool-panel__link-text font-content-link-1 font-content-link-1-sm">
                                     후속투자금액<br>62억 5천만원
 
                                     </span>
-                                
+                                </a>
                                 <div class="tool-panel__link-border"></div>
                             </div>
                             <div class="col-12 col-sm tool-panel__panel">
-                                
+                                <a class="tool-panel__link" href="#" target="_self">
                                     <img class="tool-panel__link-image" src="https://evolution.metlife.com/content/dam/metlifecom/global/web-icons/utility/utility-1_calendar_120p.svg" alt=""/>
                                     <span class="tool-panel__link-text font-content-link-1 font-content-link-1-sm">
                                     2020년 전체  매출
 <br>92억4천만원
                                    </span>
-                                
+                                </a>
                                 <div class="tool-panel__link-border"></div>
                             </div>
                             <div class="col-12 col-sm tool-panel__panel">
-                                
+                                <a class="tool-panel__link" href="#" target="_self">
                                     <img class="tool-panel__link-image" src="https://evolution.metlife.com/content/dam/metlifecom/global/web-icons/utility/utility-1_calendar_120p.svg" alt=""/>
                                     <span class="tool-panel__link-text font-content-link-1 font-content-link-1-sm">
                                     고용창출<br>72명
 
                                     </span>
-                                
+                                </a>
                                 <div class="tool-panel__link-border"></div>
                             </div>
                        
