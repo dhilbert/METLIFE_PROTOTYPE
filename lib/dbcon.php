@@ -131,7 +131,7 @@ function main_contents_1($img,$mb_showtext,$mb_showtext_sub,$mb_ctaname){
                 
                 <div class="eye-brow-border"></div>
                 <h3 class="eye-brow-text font-eyebrow-1 font-eyebrow-3-sm font-eyebrow-3-md">
-                    NEWS
+                News&Notice
                 </h3>
                 
             </div>
