@@ -142,6 +142,10 @@ function main_contents_1($img,$mb_showtext,$mb_showtext_sub,$mb_ctaname){
             <div class="col-12 col-sm-11 col-md-10 offset-md-1 story-content-mobile story-content" data-aos="fade-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
                 <div class="story-content-container">
                     <div class="row story-textarea">
+                        <div class="col-12 eye-brow-text font-eyebrow-1 font-eyebrow-3-sm font-eyebrow-3-md eye-brow-mobile">
+                            <span> News&Notice</span>
+                        </div>
+
                       
                     <h4 class="col-12 col-md-6 story-headline font-header-4-md font-header-5-sm font-content-link-1">
                     

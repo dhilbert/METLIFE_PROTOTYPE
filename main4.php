@@ -22,8 +22,15 @@
 
 
 <div class="component hero-detail component__spacing-bottom ">
-    <div class="headline bg text-and-image" data-desktop-src="https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/resources/responsive-web/components/detail-hero/01_Health_Desktop.jpg" 
+<!--    
+<div class="headline bg text-and-image" 
+    
+    data-desktop-src="https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/resources/responsive-web/components/detail-hero/01_Health_Desktop.jpg" 
                                             data-mobile-src="https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/resources/responsive-web/components/detail-hero/01_Health_Desktop.jpg" style="background-position: center center;">
+
+-->                                            
+<div class="headline bg text-and-image" 
+ style="background-position: center center;">
         <div class="container headline__container" data-aos="fade-up" data-aos-delay="1000">
             <div class="row headline__row">
                 <div class="col-12 headline__column">
