@@ -36,16 +36,6 @@ include_once('head.php');
 
 
 
-
-
-					<div class="card">
-					<ul class="nav nav-tabs mt10" role="tablist">
-						<li role="presentation" class="active"><a href="/METLIFE_PROTOTYPE/admin/02.main.php" aria-controls="home" role="tab" data-toggle="tab">후기관리</a></li>
-						<li role="presentation"><a href="/METLIFE_PROTOTYPE/admin/02.main_kind.php" aria-controls="messages">후기목록관리</a></li>
-					</ul>
-
-
-
 					<div class="card">
 						<div class="tools">
 							<div class="row">

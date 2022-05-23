@@ -96,19 +96,42 @@
                                         모든
                                     </span>
                                 </button>
+                                <?php 
+                                    $sql = "select  * from kind_list_0;";
+                                    $res	=  mysqli_query($real_sock,$sql) or die(mysqli_error($real_sock));
+                                    while($info	 = mysqli_fetch_array($res)){
+
+                                        echo '<button class="column-article-grid__carousel-item filter-topic" data-tab="tab-1" data-tab-target="_self" data-tab-tags="metlife:ux-design/article/XDinPractice/KeysToSucess" aria-pressed="false">
+                                        <span class="topic-text font-byline-1">
+                                            '.$info['kl_name'].'
+                                        </span>
+                                            </button>';
+                                        
+                                        
+                                        
+
+
+                                    };
+												
+												
+												
+                                ?>
+											
+
+
+                                    
                                 
-                                    <button class="column-article-grid__carousel-item filter-topic" data-tab="tab-1" data-tab-target="_self" data-tab-tags="metlife:ux-design/article/XDinPractice/KeysToSucess" aria-pressed="false">
-                                <span class="topic-text font-byline-1">
-                                    XD in Practice
-                                </span>
-                                    </button>
-                                
-                                    <button class="column-article-grid__carousel-item filter-topic" data-tab="tab-2" data-tab-target="_self" data-tab-tags="metlife:ux-design/article/showcase" aria-pressed="false">
-                                <span class="topic-text font-byline-1">
-                                    Showcase
-                                </span>
-                                    </button>
-                                
+
+
+
+
+
+
+
+
+
+
+
                             </div>
                             <button class="carousel-control right js-rightClick d-none" aria-label="Next">
                                 <svg class="icon icon-chevron-left" aria-hidden="true" tabindex="-1" focusable="false">

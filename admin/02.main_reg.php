@@ -118,7 +118,27 @@
 								<tr>
 									<th>분류</th>
 									<td colspan="3">
-									<input type="text" class="form-control" required="required" id="rvwSj" name="rvwSj" value="2021년 암투병 소방관분들의 치료비를 지원한 기부캠페인 이야기" />
+									<span class="select">
+											<select class="form-control" name="cateUpperCode" >
+
+												
+												<?php 
+													$sql = "select  * from kind_list_0;";
+													$res	=  mysqli_query($real_sock,$sql) or die(mysqli_error($real_sock));
+													while($info	 = mysqli_fetch_array($res)){
+
+														echo "<option value=''>".$info['kl_name']."</option>";
+
+
+													};
+												
+												
+												
+												?>
+											
+											</select>
+										</span>
+										
 									</td>
 								</tr>
 
