@@ -345,8 +345,7 @@ function main_contents_4($img,$mb_showtext,$mb_showtext_sub,$mb_ctaname){
                 
                     <div class="product-promo-breaker-cta brand-button font-cta-5">
                         <a href="#" target="_self" aria-label="#">
-                        <span><?php echo $mb_ctaname;?></span>
-                            
+                        <span><?php echo $mb_ctaname;?></span>                        
                         </a>
                     </div>
                 
@@ -354,23 +353,10 @@ function main_contents_4($img,$mb_showtext,$mb_showtext_sub,$mb_ctaname){
             <div class="product-promo-breaker-img bg " data-aos="fade-up" data-aos-delay="250" data-aos-duration="350" 
             data-mobile-src="admin/img/<?php echo $img  ; ?>"
             data-desktop-src="admin/img/<?php echo $img  ; ?>"></div>
-            <div class="product-promo-breaker-img bg " data-aos="fade-up" data-aos-delay="250" data-aos-duration="350" data-mobile-src="/content/dam/metlifecom/uxdesign/assets/img/resources/responsive-web/components/content-promo/product-promo-breaker/Work_Visual_Product_Card_regular_optimized.jpg" data-desktop-src="/content/dam/metlifecom/uxdesign/assets/img/resources/responsive-web/components/content-promo/product-promo-breaker/Work_Visual_Product_Card_regular_optimized.jpg"></div>
+            
         </div>
     </div>
 </div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
 
 
 <?php
