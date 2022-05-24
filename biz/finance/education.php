@@ -194,6 +194,13 @@ if (m_page_view()){}else{
 
 
 
+    
+<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/tool-panel-v2/clientlibs.min.js" defer></script>
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/tool-panel-v2/clientlibs.min.css" type="text/css">
+
+
+
+
 
 
 
