@@ -229,52 +229,52 @@ if (m_page_view()){}else{
                     <div class="row">
                         
                             <div class="col-12 col-sm tool-panel__panel">
-                                
+                                <a class="tool-panel__link" href="#" target="_self">
                                     <img class="tool-panel__link-image" src="img/1.png" alt=""/>
                                     <span class="tool-panel__link-text font-content-link-1 font-content-link-1-sm">
                                     우리 가족<br>1학년
                                     </span>
-                                
+                                </a>
                                 <div class="tool-panel__link-border"></div>
                             </div>
                         
                             <div class="col-12 col-sm tool-panel__panel">
-                                
+                                <a class="tool-panel__link" href="#" target="_self">
                                 <img class="tool-panel__link-image" src="img/2.png" alt=""/>
                                     <span class="tool-panel__link-text font-content-link-1 font-content-link-1-sm">
                                     우리 마을<br>2학년
 
                                     </span>
-                                
+                                </a>
                                 <div class="tool-panel__link-border"></div>
                             </div>
                         
                             <div class="col-12 col-sm tool-panel__panel">
-                                
+                                <a class="tool-panel__link" href="#" target="_self">
                                     <img class="tool-panel__link-image" src="img/3.png" alt=""/>
                                     <span class="tool-panel__link-text font-content-link-1 font-content-link-1-sm">
                                     우리 도시<br>3학년
 
                                     </span>
-                                
+                                </a>
                                 <div class="tool-panel__link-border"></div>
                             </div>
                             <div class="col-12 col-sm tool-panel__panel">
-                                
+                                <a class="tool-panel__link" href="#" target="_self">
                                     <img class="tool-panel__link-image" src="img/4.png" alt=""/>
                                     <span class="tool-panel__link-text font-content-link-1 font-content-link-1-sm">
                                     우리 나라<br>5학년
                                     </span>
-                                
+                                </a>
                                 <div class="tool-panel__link-border"></div>
                             </div>
                             <div class="col-12 col-sm tool-panel__panel">
-                                
-                                    <img class="tool-panel__link-image" src="img/6.png" alt=""/>
+                                <a class="tool-panel__link" href="#" target="_self">
+                                    <img class="tool-panel__link-image" src="img/5.png" alt=""/>
                                     <span class="tool-panel__link-text font-content-link-1 font-content-link-1-sm">
                                     우리 세계<br>6학년
                                     </span>
-                                
+                                </a>
                                 <div class="tool-panel__link-border"></div>
                             </div>
 
