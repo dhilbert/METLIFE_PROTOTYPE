@@ -155,7 +155,75 @@
                         <div class="row article-cta-wrapper"></div>
 
                         <div class="row article-list-wrapper">
-                            <div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div><div class="article-list-section-content"><div class="article-list-item-bg"><div class="article-list-item-bg-container"><div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/xd-in-practice/the-xd-process-step-by-step/met-life-des-xd-in-practice-the-xd-process-step-by-step-asset-01.jpg')"></div></div></div><a href="https://design.metlife.com/content/metlife/uxdesign/homepage/xd-in-practice/responsive-web/designing-websites" target="_self"><div class="article-list-item-headline">Designing modern marketing websites with Adobe Experience Manager</div></a><div class="article-list-item-publishedDate">SEP 30, 2021</div></div></div><div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div><div class="article-list-section-content"><div class="article-list-item-bg"><div class="article-list-item-bg-container"><div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/xd-in-practice/the-xd-process-step-by-step/met-life-des-xd-in-practice-the-xd-process-step-by-step-asset-01.jpg')"></div></div></div><a href="https://design.metlife.com/content/metlife/uxdesign/homepage/xd-in-practice/keys-to-success/working-with-designers" target="_self"><div class="article-list-item-headline">Working with Designers</div></a><div class="article-list-item-publishedDate">SEP 30, 2021</div></div></div><div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div><div class="article-list-section-content"><div class="article-list-item-bg"><div class="article-list-item-bg-container"><div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/xd-in-practice/the-xd-process-step-by-step/met-life-des-xd-in-practice-the-xd-process-step-by-step-asset-01.jpg')"></div></div></div><a href="https://design.metlife.com/content/metlife/uxdesign/homepage/xd-in-practice/keys-to-success/sharing-insights" target="_self"><div class="article-list-item-headline">Using Insights to Shape Experiences</div></a><div class="article-list-item-publishedDate">SEP 30, 2021</div></div></div><div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div><div class="article-list-section-content"><div class="article-list-item-bg"><div class="article-list-item-bg-container"><div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/xd-in-practice/the-xd-process-step-by-step/met-life-des-xd-in-practice-the-xd-process-step-by-step-asset-01.jpg')"></div></div></div><a href="https://design.metlife.com/content/metlife/uxdesign/homepage/xd-in-practice/responsive-web/aem-global-navigation" target="_self"><div class="article-list-item-headline">AEM Global Navigation</div></a><div class="article-list-item-publishedDate">SEP 30, 2021</div></div></div><div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div><div class="article-list-section-content"><div class="article-list-item-bg"><div class="article-list-item-bg-container"><div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/showcase/Mexico-Article-Thumbnail.jpg')"></div></div></div><a href="https://design.metlife.com/content/metlife/uxdesign/homepage/showcase/mexico" target="_self"><div class="article-list-item-headline">Mexico Digital Brand Expression</div></a><div class="article-list-item-publishedDate">SEP 30, 2021</div></div></div><div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div><div class="article-list-section-content"><div class="article-list-item-bg"><div class="article-list-item-bg-container"><div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/showcase/Japan-Article-Thumbnail.jpg')"></div></div></div><a href="https://design.metlife.com/content/metlife/uxdesign/homepage/showcase/japan" target="_self"><div class="article-list-item-headline">Japan Digital Brand Expression</div></a><div class="article-list-item-publishedDate">SEP 30, 2021</div></div></div><div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div><div class="article-list-section-content"><div class="article-list-item-bg"><div class="article-list-item-bg-container"><div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/xd-in-practice/the-xd-process-step-by-step/met-life-des-xd-in-practice-the-xd-process-step-by-step-asset-01.jpg')"></div></div></div><a href="https://design.metlife.com/content/metlife/uxdesign/homepage/xd-in-practice/keys-to-success/understanding-usability" target="_self"><div class="article-list-item-headline">Understanding Usability</div></a><div class="article-list-item-publishedDate">SEP 30, 2021</div></div></div><div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div><div class="article-list-section-content"><div class="article-list-item-bg"><div class="article-list-item-bg-container"><div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/xd-in-practice/the-xd-process-step-by-step/met-life-des-xd-in-practice-the-xd-process-step-by-step-asset-01.jpg')"></div></div></div><a href="https://design.metlife.com/content/metlife/uxdesign/homepage/xd-in-practice/keys-to-success/experience-design" target="_self"><div class="article-list-item-headline">What is Experience Design?</div></a><div class="article-list-item-publishedDate">SEP 30, 2021</div></div></div><div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div><div class="article-list-section-content"><div class="article-list-item-bg"><div class="article-list-item-bg-container"><div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/xd-in-practice/the-xd-process-step-by-step/met-life-des-xd-in-practice-the-xd-process-step-by-step-asset-01.jpg')"></div></div></div><a href="https://design.metlife.com/content/metlife/uxdesign/homepage/xd-in-practice/keys-to-success/usability-testing" target="_self"><div class="article-list-item-headline">Usability Testing 101</div></a><div class="article-list-item-publishedDate">SEP 30, 2021</div></div></div><div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div><div class="article-list-section-content"><div class="article-list-item-bg"><div class="article-list-item-bg-container"><div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/xd-in-practice/the-xd-process-step-by-step/met-life-des-xd-in-practice-the-xd-process-step-by-step-asset-01.jpg')"></div></div></div><a href="https://design.metlife.com/content/metlife/uxdesign/homepage/xd-in-practice/keys-to-success/the-xd-process-step-by-step" target="_self"><div class="article-list-item-headline">The XD Process: Step-by-Step</div></a><div class="article-list-item-publishedDate">SEP 30, 2021</div></div></div><div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div><div class="article-list-section-content"><div class="article-list-item-bg"><div class="article-list-item-bg-container"><div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/showcase/Chile-Article-Thumbnail.jpg')"></div></div></div><a href="https://design.metlife.com/content/metlife/uxdesign/homepage/showcase/chile" target="_self"><div class="article-list-item-headline">Chile Digital Brand Expression</div></a><div class="article-list-item-publishedDate">JUL 30, 2021</div></div></div><div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div><div class="article-list-section-content"><div class="article-list-item-bg"><div class="article-list-item-bg-container"><div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/showcase/US-Article-Thumbnail.jpg')"></div></div></div><a href="https://design.metlife.com/content/metlife/uxdesign/homepage/showcase/us" target="_self"><div class="article-list-item-headline">U.S. Digital Brand Expression</div></a><div class="article-list-item-publishedDate">JUL 30, 2021</div></div></div></div>
+                            
+
+
+
+
+
+
+
+                        <?php
+                        
+                            $sql = "select  * 
+                                    from MLT_PRGM_RVW as  a
+                                        join 
+                                where a.RVW_EXP_YN ='Y'";
+                            $res	=  mysqli_query($real_sock,$sql) or die(mysqli_error($real_sock));
+                            while($info	 = mysqli_fetch_array($res)){
+                        
+                            }
+                        ?>            
+
+
+
+
+
+
+
+
+
+
+                        <div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div>
+                            <div class="article-list-section-content">
+                                <div class="article-list-item-bg">
+                                    <div class="article-list-item-bg-container">
+                                        <div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/xd-in-practice/the-xd-process-step-by-step/met-life-des-xd-in-practice-the-xd-process-step-by-step-asset-01.jpg')"></div>
+                                    </div>
+                                </div>
+                                    <a href="https://design.metlife.com/content/metlife/uxdesign/homepage/xd-in-practice/responsive-web/designing-websites" target="_self"><div class="article-list-item-headline">Designing modern marketing websites with Adobe Experience Manager</div></a>
+                                    <div class="article-list-item-publishedDate">SEP 30, 2021</div>
+                                </div>
+                                </div>
+                                                      
+                                <div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div>
+                            <div class="article-list-section-content">
+                                <div class="article-list-item-bg">
+                                    <div class="article-list-item-bg-container">
+                                        <div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/xd-in-practice/the-xd-process-step-by-step/met-life-des-xd-in-practice-the-xd-process-step-by-step-asset-01.jpg')"></div>
+                                    </div>
+                                </div>
+                                    <a href="https://design.metlife.com/content/metlife/uxdesign/homepage/xd-in-practice/responsive-web/designing-websites" target="_self"><div class="article-list-item-headline">Designing modern marketing websites with Adobe Experience Manager</div></a>
+                                    <div class="article-list-item-publishedDate">SEP 30, 2021</div>
+                                </div>
+                                </div>
+                                                      
+                                <div class="col-12 col-sm-4 article-list-item"><div class="article-list-item-border d-none d-sm-block"></div>
+                            <div class="article-list-section-content">
+                                <div class="article-list-item-bg">
+                                    <div class="article-list-item-bg-container">
+                                        <div class="bg" style="background-image: url('https://design.metlife.com/content/dam/metlifecom/uxdesign/assets/img/xd-in-practice/the-xd-process-step-by-step/met-life-des-xd-in-practice-the-xd-process-step-by-step-asset-01.jpg')"></div>
+                                    </div>
+                                </div>
+                                    <a href="https://design.metlife.com/content/metlife/uxdesign/homepage/xd-in-practice/responsive-web/designing-websites" target="_self"><div class="article-list-item-headline">Designing modern marketing websites with Adobe Experience Manager</div></a>
+                                    <div class="article-list-item-publishedDate">SEP 30, 2021</div>
+                                </div>
+                                </div>
+                                                      
+                                
+                                
+                    
+                    </div></div>
                     </div>
                     <div class="col-12 show-more-section d-none">
                 <span class="show-more-button" tabindex="0" role="button">

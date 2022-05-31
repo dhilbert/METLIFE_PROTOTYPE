@@ -85,28 +85,29 @@ if (m_page_view()){}else{
 <link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/content-promo-banner/clientlibs.min.css" type="text/css">
 <script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/content-promo-banner/clientlibs.min.js" defer></script>
 
+
+
+
+
+
+
 <div class="component content-promo-banner component__spacing-bottom ">
-    <div class="container content-promo-banner__container white image-right">
+    <div class="container content-promo-banner__container gray image-left">
         <div class="row">
             <div class="col-12">
                 <div class="content-promo-banner__background">
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-4 content-promo-banner__image-column d-sm-none">
-
-                        <div class="content-promo-banner__image bg" data-desktop-src="../img/blank.png" data-mobile-src="../img/blank.png">
+                        <div class="col-12 col-sm-6 col-md-4 content-promo-banner__image-column ">
+                            <div class="content-promo-banner__image bg" data-desktop-src="../img/blank.png" data-mobile-src="../img/blank.png">
                             </div>
-
-                            
                         </div>
                         <div class="col-12 col-sm-6 col-md-8 content-promo-banner__content-column">
-                            <div class="content-promo-banner__content button">
+                            <div class="content-promo-banner__content link">
                                 <!--
                                     <div class="content-promo-banner__eyebrow font-eyebrow-1">
-                                        <p>어린이를 위한 금융교육<br /></p>
-
+                                    <p>한국가계의 재무건강 연구</p>
                                     </div>
-                        -->
-                                
+-->
                                     <div class="content-promo-banner__headline font-header-4 font-header-5-sm font-header-4-md">
                                         <p>한국가계의 재무건강 연구</p>
 
@@ -124,16 +125,21 @@ if (m_page_view()){}else{
                                         <div class="content-promo-banner__cta-button">
                                             <a class="btn-brand-8th" href="https://www.finhealthindex.org/" target="_self" role="button">연구결과 알아보기></a>
                                         </div>
-                        
+                                
                                     
+                                    <!--
+                                        <div class="content-promo-banner__cta-link">
+                                            <a class="font-cta-1" href="#" target="_self">
+                                                <span>CTA Text Link</span>
+                                                <svg class="icon icon-chevron-right">
+                                                    <use xlink:href="/static/images/icons-metlife.svg#icon-chevron-right"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                -->
                                 
                             </div>
                         </div>
-                        
-                            <div class="col-12 col-sm-6 col-md-4 content-promo-banner__image-column d-none d-sm-block">
-                                <div class="content-promo-banner__image bg" data-mobile-src="../img/blank.png" data-desktop-src="../img/blank.png">
-                                </div>
-                            </div>
                         
                     </div>
                 </div>
@@ -144,10 +150,6 @@ if (m_page_view()){}else{
         
     </div>
 </div></div>
-
-
-
-
 
 
 
