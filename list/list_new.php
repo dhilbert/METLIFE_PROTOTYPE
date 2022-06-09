@@ -5,7 +5,7 @@
   //  include_once('banner.php');
   
 
-  $array = array("재단 소식","나눔 스토리");
+  $array = array("재단 소식","뉴스");
   hd_bread_crumb($array);
 
 
@@ -156,7 +156,7 @@ while($info	 = mysqli_fetch_array($res)){
                                 <div class="row article-grid-filter-wrapper">
                                     <div class="col-12 article-grid-title">
                                         <div class="article-grid-top-gradient"></div>
-                                        <h2 id="column-article-grid-921752119--labelledby">나눔스토리</h2>
+                                        <h2 id="column-article-grid-921752119--labelledby">뉴스</h2>
                                     </div>
 
                                     <div class="col-12 article-grid-topic-container">

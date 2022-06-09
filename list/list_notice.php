@@ -5,7 +5,7 @@
   //  include_once('banner.php');
   
 
-  $array = array("재단 소식","나눔 스토리");
+  $array = array("재단 소식","공지사항");
   hd_bread_crumb($array);
 
 
