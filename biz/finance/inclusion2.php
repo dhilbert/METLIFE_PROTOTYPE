@@ -66,6 +66,7 @@ if (m_page_view()){}else{
                 
                     <div class="divider__copy richtext richtext-wysiwyg">
                         <p><span class="font-header-2">사회혁신조직 투자육성 Inclusion Plus</span></p>
+                        <!-- 메인 텍스트 -->
 
                     </div>
                 
