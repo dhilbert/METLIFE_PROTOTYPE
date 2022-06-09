@@ -471,7 +471,7 @@ function index_table_admin3($array){
     $num += 1;
     $values = "<a href='".$array[2]."' class='btn btn-primary' target='_blank'>보기<a/>";
     Cutie_hd_td2($num,$values);
-    $values = "<a href='".$array[4]."' class='btn btn-primary' target='_blank'>보기<a/>";
+    $values = $array[4];
     Cutie_hd_td2($num,$values);
     
     $num += 1;
