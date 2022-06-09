@@ -256,6 +256,8 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<h1 class="page-header">관리자 페이지 현황판</h1>
+※ 로그인 정보 : mtlf_admin/ aprkwhs12#$ 
+
 			</div>
 		</div><!--/.row-->
         <div class="row">
