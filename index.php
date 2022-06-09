@@ -97,8 +97,22 @@
 
 		}
 
+
 		
+		if($info['it_result']==""){
+			$values = "개발중";
+		}
+		else{
+			$values = "<a href='".$info['it_result']."' class='btn btn-primary' target='_blank'>보기<a/>";
+
+		}
+		$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;		
 		$values = $info['it_comment'];		$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
+
+
+
+
+
 		$temp_text=$temp_text."</tr>";
 		$want_text = 	$want_text.$temp_text;
 	}	
@@ -214,6 +228,9 @@
                                     $values = "신규";
                                     index_table_th($num,$values);
                                     $num += 1;
+                                    $values = "산출물";
+                                    index_table_th($num,$values);
+									$num += 1;
                                     $values = "코멘트";
                                     index_table_th($num,$values);
                                 
@@ -266,9 +283,14 @@
                                     $num += 1;
                                     $values = "신규";
                                     index_table_th($num,$values);
-                                    $num += 1;
+									$num += 1;
+                                    $values = "산출물";
+                                    index_table_th($num,$values);
+                                    
+									
+									$num += 1;
                                     $values = "코멘트";
-                                    //index_table_th($num,$values);
+                                    index_table_th($num,$values);
                                 
                                 ?>
 						        
@@ -278,10 +300,10 @@
                             <tbody>
 							<?php
 								
-								$want_array = array("진행중","메인 비주얼 관리","/METLIFE_PROTOTYPE/admin/main.php","기능확인 필요");
-								index_table_admin($want_array);						
-								$want_array = array("진행중","메인 게시물 관리","/METLIFE_PROTOTYPE/admin/01.main.php","기능확인 필요");
-								index_table_admin($want_array);						
+								$want_array = array("진행중","메인 비주얼 관리","/METLIFE_PROTOTYPE/admin/main.php","기능확인 필요","https://211.47.7.16:7070/ntapp/article/main/visual/list");
+								index_table_admin3($want_array);						
+								$want_array = array("진행중","메인 게시물 관리","/METLIFE_PROTOTYPE/admin/01.main.php","기능확인 필요","https://211.47.7.16:7070/ntapp/article/main/banner/list");
+								index_table_admin3($want_array);						
 								$want_array = array("진행중","후기 관리","/METLIFE_PROTOTYPE/admin/02.main.php","노출 콘텐츠 확인 필요");
 								index_table_admin($want_array);
 								$want_array = array("진행중","공지사항 관리","#","노출 콘텐츠 확인 필요");

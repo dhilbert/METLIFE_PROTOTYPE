@@ -448,6 +448,9 @@ $num += 1;
 $values = "<a href='".$array[2]."' class='btn btn-primary' target='_blank'>보기<a/>";
 Cutie_hd_td2($num,$values);
 $num += 1;
+$values = "공사중";
+Cutie_hd_td2($num,$values);
+$num += 1;
 $values = $array[3];
 Cutie_hd_td2($num,$values);
 echo "</tr>"	;
@@ -456,6 +459,27 @@ echo "</tr>"	;
 
 
 
+function index_table_admin3($array){
+    echo "<tr>"	;
+    $num = 0;
+    $num += 1;
+    $values = $array[0];
+    Cutie_hd_td2($num,$values);
+    $num += 1;
+    $values = $array[1];
+    Cutie_hd_td2($num,$values);
+    $num += 1;
+    $values = "<a href='".$array[2]."' class='btn btn-primary' target='_blank'>보기<a/>";
+    Cutie_hd_td2($num,$values);
+    $values = "<a href='".$array[4]."' class='btn btn-primary' target='_blank'>보기<a/>";
+    Cutie_hd_td2($num,$values);
+    
+    $num += 1;
+    $values = $array[3];
+    Cutie_hd_td2($num,$values);
+    echo "</tr>"	;
+    
+    }
 
 
 function index_table_admin2($array){
@@ -468,6 +492,8 @@ $num += 1;
 $values = $array[1];
 Cutie_hd_td2($num,$values);
 $num += 1;
+$values = "공사중";
+Cutie_hd_td2($num,$values);
 $values = "공사중";
 Cutie_hd_td2($num,$values);
 $num += 1;
