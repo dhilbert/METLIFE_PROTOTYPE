@@ -782,6 +782,264 @@ function ProductPromoBreaker_left($array){
 <?php
 }
 
+function ContentPromoBannerLeft($array){
+?>
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/content-promo-banner/clientlibs.min.css" type="text/css">
+<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/content-promo-banner/clientlibs.min.js" defer></script>
+
+
+
+
+
+<div class="component content-promo-banner component__spacing-bottom ">
+    <div class="container content-promo-banner__container white image-right">
+        <div class="row">
+            <div class="col-12">
+                <div class="content-promo-banner__background">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4 content-promo-banner__image-column d-sm-none">
+                            <div class="content-promo-banner__image bg" data-desktop-src="<?php echo $array[0]?>" data-mobile-src="<?php echo $array[0]?>">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-8 content-promo-banner__content-column">
+                            <div class="content-promo-banner__content button">
+                                    <?php
+                                        if($array[1]==Null or ""){}
+                                        else{
+                                         echo '<div class="content-promo-banner__eyebrow font-eyebrow-1">
+                                                <p>'.$array[1].'<br /></p>
+                                            </div>' ;  
+                                        }
+                                        if($array[2]==Null or ""){}
+                                        else{
+                                         echo '<div class="content-promo-banner__headline font-header-4 font-header-5-sm font-header-4-md">
+                                                <p>'.$array[2].'<br /></p>
+                                            </div>' ;  
+                                        }
+                                        if($array[3]==Null or ""){}
+                                        else{
+                                         echo '   <div class="content-promo-banner__copy font-body-1 font-body-3-sm">
+                                                <p>'.$array[3].'<br /></p>
+                                            </div>' ;  
+                                        }
+                                        if($array[4]==Null or ""){}
+                                        else{
+                                         echo '<div class="content-promo-banner__cta-button">
+                                                <a class="btn-brand-8th" href="'.$array[4].'" target="_self" role="button">'.$array[5].'</a>
+                                            </div>' ;  
+                                        }
+                                        
+                                    ?>                       
+                                    
+                                        
+                                    
+                                    
+                                
+                            </div>
+                        </div>
+                        
+                            <div class="col-12 col-sm-6 col-md-4 content-promo-banner__image-column d-none d-sm-block">
+                                <div class="content-promo-banner__image bg" data-mobile-src="<?php echo $array[0]?>" data-desktop-src="<?php echo $array[0]?>">
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            <div class="content-promo-banner__color-bar"></div>
+        
+    </div>
+</div></div>
+<?php 
+}
+function ContentPromoBannerRight($array){
 
 ?>
+
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/content-promo-banner/clientlibs.min.css" type="text/css">
+<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/content-promo-banner/clientlibs.min.js" defer></script>
+<div class="component content-promo-banner component__spacing-bottom ">
+    <div class="container content-promo-banner__container gray image-left">
+        <div class="row">
+            <div class="col-12">
+                <div class="content-promo-banner__background">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4 content-promo-banner__image-column ">
+                            
+                        <div class="content-promo-banner__image bg" data-desktop-src="<?php echo $array[0]?>" data-mobile-src="<?php echo $array[0]?>">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-8 content-promo-banner__content-column">
+                            <div class="content-promo-banner__content link">
+                                
+                            <?php
+                                        if($array[1]==Null or ""){}
+                                        else{
+                                         echo '<div class="content-promo-banner__eyebrow font-eyebrow-1">
+                                                <p>'.$array[1].'<br /></p>
+                                            </div>' ;  
+                                        }
+                                        if($array[2]==Null or ""){}
+                                        else{
+                                         echo '<div class="content-promo-banner__headline font-header-4 font-header-5-sm font-header-4-md">
+                                                <p>'.$array[2].'<br /></p>
+                                            </div>' ;  
+                                        }
+                                        if($array[3]==Null or ""){}
+                                        else{
+                                         echo '   <div class="content-promo-banner__copy font-body-1 font-body-3-sm">
+                                                <p>'.$array[3].'<br /></p>
+                                            </div>' ;  
+                                        }
+                                        if($array[4]==Null or ""){}
+                                        else{
+                                         echo '<div class="content-promo-banner__cta-button">
+                                                <a class="btn-brand-8th" href="'.$array[4].'" target="_self" role="button">'.$array[5].'</a>
+                                            </div>' ;  
+                                        }
+                                        
+                                    ?>           
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            <div class="content-promo-banner__color-bar"></div>
+        
+    </div>
+</div></div>
+<?php
+}
+
+function ValueProp($title,$item_array){
+?>
+<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.js" defer></script>
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.css" type="text/css">
+
+<section class="component value-prop component__spacing-bottom   " role="region" aria-labelledby="value_prop_1311114780--labelledby">
+    <div id="value_prop_1311114780--labelledby" class="d-none" aria-hidden="true"></div>
+    <div class="gradiant-div"></div>
+    <div class="value-prop__wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-11 offset-md-1 value-prop__bar">
+                    <div class="value-prop__border"></div>
+                </div>
+            </div>
+            <div class="header_panel row">                
+                    <h2 class="col-8 offset-md-1 font-header-4 font-header-4-sm font-header-2-md value-prop__title">
+                        <p><?php echo $title?></p>
+
+                    </h2>
+                
+                <div class="col-4 col-md-2 value-prop__controls">
+                    <a class="carousel-control left js-leftClick" href="JavaScript:void(0);" role="button" tabindex="0" aria-label="Prev">
+                        <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
+                            <use xlink:href="/static/images/icons-metlife.svg#icon-chevron-left" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                        </svg>
+                    </a>
+                    <span class="updatepipe"></span>
+                    <a class="carousel-control right js-rightClick" href="JavaScript:void(0);" role="button" tabindex="0" aria-label="Next">
+                        <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
+                            <use xlink:href="/static/images/icons-metlife.svg#icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 offset-md-1 col-lg-11-offset-1-right-edge carousel-4-items no-carousel value-prop__item-container" data-aos="fade-left" data-aos-delay="350" data-aos-duration="750">
+                    
+                        <div class="value-prop__item col-md-3">
+                            <div class="value-prop__container">
+                            
+                                    <div class="value-prop__item__bg">
+                                        <img src="/METLIFE_PROTOTYPE/img/p_endowment_≤120p.png" alt="" aria-hidden="true"/>
+                                    </div>
+                                
+                                <div class="value-prop__item__content  ">
+                                    
+                                        <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
+                                            <p><b><?php echo $item_array[0][0]?></b></p>
+
+                                        </div>
+                                    
+                                    <div class="value-prop__item__description font-body-2 font-body-2-sm">
+                                        <p><?php echo $item_array[0][1]?></p>
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                        <div class="value-prop__item col-md-3">
+                            <div class="value-prop__container">
+                            
+                                    <div class="value-prop__item__bg">
+                                        <img src="/METLIFE_PROTOTYPE/img/utility-1_clock_≤120p.png" alt="" aria-hidden="true"/>
+                                    </div>
+                                
+                                <div class="value-prop__item__content  ">
+                                    
+                                        <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
+                                            <p><b><?php echo $item_array[1][0]?>    </b></p>
+
+                                        </div>
+                                    
+                                    <div class="value-prop__item__description font-body-2 font-body-2-sm">
+                                        <p><?php echo $item_array[1][1]?>    </p>
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                        <div class="value-prop__item col-md-3">
+                            <div class="value-prop__container">
+                            
+                                    <div class="value-prop__item__bg">
+                                        <img src="/METLIFE_PROTOTYPE/img/hr_beneficiary-designation_≤120p.png" alt="" aria-hidden="true"/>
+                                    </div>
+                                
+                                <div class="value-prop__item__content  ">
+                                    
+                                        <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
+                                            <p><b><?php echo $item_array[2][0]?>        </b></p>
+
+                                        </div>
+                                    
+                                    <div class="value-prop__item__description font-body-2 font-body-2-sm">
+                                        <p><?php echo $item_array[2][1]?>        </p>
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<?php 
+                            }
+                    
+?>
+
+
+
 
