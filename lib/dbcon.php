@@ -1,7 +1,7 @@
 <?php
 
 error_reporting( E_ALL );
-  ini_set( "display_errors", 1 );
+ini_set( "display_errors", 1 );
 include('function.php');
 
 $real_hostname="3.36.83.6";
@@ -513,7 +513,275 @@ echo "</tr>"	;
 
 
 
+
+
+
+
+
+
+
+function GenericHero($headline,$subtext){
+?>
+  
+<script type="text/javascript" src="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/hero-detail/clientlibs.min.js" defer></script>
+<script type="text/javascript" src="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/divider/clientlibs.min.js" defer></script>
+<link rel="stylesheet" href="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/hero-general/clientlibs.min.css" type="text/css">   
+<link rel="stylesheet" href="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/divider/clientlibs.min.css" type="text/css">
+
+
+
+
+
+
+<div class="hero-general component component__spacing-bottom ">
+    <div class="hero-general__container gradient">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-10">
+                    <div class="hero-general__content">
+                        <div class="hero-general__title font-header-4 font-header-2-md"><?php echo $headline?></div>
+                        <div class="hero-general__subcopy font-body-1 font-body-3-sm font-body-1-md"><?php echo $subtext?>                        
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php
+}
+
+
+function wysisyg($headline,$subtext){
+?>    
+<script type="text/javascript" src="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/wysiwyg-rte/clientlibs.min.js" defer></script>
+<link rel="stylesheet" href="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/wysiwyg-rte/clientlibs.min.css" type="text/css">
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-11  offset-md-1 responsive-columns">
+                <div class="richtext richtext-wysiwyg">
+                  
+                <?php
+                    if($headline=='' or Null){}
+                    else{
+                ?>
+<h2><span class="font-subhead-2"><?php echo $headline?></span></h2>
+<?php 
+}
+?>
+<p><?php echo $subtext?></p>
+<p></p>
+<!--
+<p>Financial health 및 금융포용 분야 내 혁신적인 솔루션을 가진 사회혁신 조직을 선정하여 경영진단 멘토링 전문분야별 컨설팅, IR 컨설팅 등을 제공을 통해 비즈니스 역량강화를 지원하고 임팩트 투자를 연계하여 사회적 가치 실현과 재무적 수익 창출을 돕습니다.</p>
+<p><span class="rte-smart-highlight">다양한 금융솔루션을 가진 팀들의 역랑을 강화하고, 건강한 금융사회를 설계해 나가는 사회혁신 프로그램, Inclusion Plus</span>입니다.</span></p>
+-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<?php 
+}
+
+function Divider($headline,$colsize,$mdsize){
+?>
+   
+<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/divider/clientlibs.min.js" defer></script>
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/divider/clientlibs.min.css" type="text/css">
+    
+<div class="divider parbase">
+    <section id="divider-1874135748" class="divider component component__spacing-bottom " role="region" aria-labelledby="divider-1874135748--labelledby">
+    <div id="divider-1874135748--labelledby" class="d-none" aria-hidden="true"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-<?php echo $colsize?> offset-md-<?php echo $mdsize?> responsive-columns">
+                <div class="divider__line gradient">
+                </div>                
+                    <div class="divider__copy richtext richtext-wysiwyg">
+                        <p><?php echo $headline?></p>
+
+                    </div>               
+            </div>
+        </div>
+    </div>
+    </section></div>
+
+<?php 
+}
+
+
+function VisualProductCard($main_text,$array){
+?>
+<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/visual-product-card/clientlibs.min.js" defer></script>
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/visual-product-card/clientlibs.min.css" type="text/css">
+<section id="visual-product-card-352261906" class="visual-product-card component component__spacing-bottom " role="region" aria-labelledby="visual-product-card-352261906--labelledby">
+    <div class="container">
+        <div class="row ">
+            <div class="col-11  offset-md-1  responsive-columns">
+                <div class="row">
+                    <div class="col-12 ">
+                        <div class="visual-product-card__eyebrow-container">
+                            <div id="visual-product-card-352261906--labelledby" class="visual-product-card__eyebrow"><?php echo $main_text?></div>
+                            <div class="visual-product-card__eyebrow-gradient-bar"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="row">
+                        
+                            <?php
+                                // 이동 경로,
+                                for($i=0;$i < count($array) ; $i++ ){
+                                    $temp =     $array[$i];
+                                
+                            
+                            ?>
+                            <div class="col-12 col-sm-6 visual-product-card__card-columns">
+                                <a class="visual-product-card__card-container image gray" href="<?php echo $temp['0']?>" target="_self">
+                                    <div class="visual-product-card__image-container">
+                                        <div class="visual-product-card__image bg" style="background-image: url('<?php echo $temp['1']?>');"></div>
+                                    </div>
+                                    <div class="visual-product-card__content-container">
+                                        <div class="visual-product-card__gradient-bar"></div>
+                                        <div class="visual-product-card__title-container">
+                                            <h2 class="visual-product-card__title"><?php echo $temp['2']?></h2>
+                                        </div>
+                                        <div class="visual-product-card__supporting-copy-container">
+                                            <div class="visual-product-card__supporting-copy richtext"> <?php echo $temp['3']?></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <?php
+                                }
+                            ?>            
+                            
+                    </div>
+                
+
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<?php
+}
+
+function JumpLinks($main_text,$link,$sub_text){
+?>  
+<div class="lead-gen-breaker parbase">
+   
+<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/lead-gen-breaker/clientlibs.min.js" defer></script>
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/lead-gen-breaker/clientlibs.min.css" type="text/css">
+<section id="jump-link-gen" class="lead-gen-breaker component component__spacing-bottom " role="region" aria-labelledby="jump-link-gen--labelledby">
+<div id="jump-link-gen--labelledby" class="d-none" aria-hidden="true">jump link gen</div>
+<div class="container-fluid lead-gen-breaker__bar">
+    <div class="row row-no-gutters">
+        <div class="filmstrip__container">
+            <div class="filmstrip__container-barOne"></div>
+            <div class="filmstrip__container-barTwo"></div>
+            <div class="filmstrip__container-barThree"></div>
+        </div>
+    </div>
+</div>
+<div class="container lead-gen-breaker__content">
+    <div class="row">
+        <div class="col-12 col-md-8 offset-md-2">
+            
+                <h2 class="lead-gen-breaker__title">
+                <?php echo $main_text?>
+                </h2>
+            
+            
+                <a class="lead-gen-breaker__cta btn-brand-1st" href="<?php echo $link?>" target="_self" data-link="true"><?php echo $sub_text?></a>               
+            
+        </div>
+    </div>
+</div>
+<?php
+}
+
+
+function ProductPromoBreaker_left($array){
+
 ?>
 
 
+
+    
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/content-promo-banner/clientlibs.min.css" type="text/css">
+<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/content-promo-banner/clientlibs.min.js" defer></script>
+<div class="component content-promo-banner component__spacing-bottom ">
+    <div class="container content-promo-banner__container gray image-left">
+        <div class="row">
+            <div class="col-12  offset-md-1">
+                <div class="content-promo-banner__background">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4 content-promo-banner__image-column ">
+                            <div class="content-promo-banner__image bg" data-desktop-src="<?php echo $array[0]?>" data-mobile-src="<?php echo $array[0]?>">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-7 content-promo-banner__content-column">
+                            <div class="content-promo-banner__content link">
+                                
+
+                                    <?php 
+                                        if($array[1]=="" or null){}
+                                        else{
+                                            echo  '<div class="content-promo-banner__eyebrow font-eyebrow-1"><p>'.$array[1].'</p></div>';
+                                        }
+
+                                        if($array[2]=="" or null){}
+                                        else{
+                                            echo  '<div class="content-promo-banner__headline font-header-4 font-header-5-sm font-header-4-md"><p>'.$array[2].'</p></div>';
+                                        }
+
+                                        if($array[3]=="" or null){}
+                                        else{
+                                            echo  '<div class="content-promo-banner__copy font-body-1 font-body-3-sm">'.$array[3].'</div>';
+                                        }
+
+                                        if($array[4]=="" or null){}
+                                        else{
+                                            echo  '<div class="content-promo-banner__cta-link">
+                                            <a class="font-cta-1" href="'.$array[4].'" target="_self">
+                                                <span>'.$array[5].'</span>
+                                                <svg class="icon icon-chevron-right">
+                                                    <use xlink:href="/static/images/icons-metlife.svg#icon-chevron-right"></use>
+                                                </svg>
+                                            </a>
+                                        </div>';
+                                        }
+
+                                        
+
+
+                                    ?>
+                                
+                                
+                                    
+                                        
+                                
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>        
+            <div class="content-promo-banner__color-bar"></div>        
+    </div>
+</div></div>
+
+<?php
+}
+
+
+?>
 

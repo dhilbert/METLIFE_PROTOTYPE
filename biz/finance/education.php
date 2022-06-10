@@ -372,63 +372,6 @@ if (m_page_view()){}else{
 
 
 
-<div class="component content-promo-banner component__spacing-bottom ">
-    <div class="container content-promo-banner__container gray image-left">
-        <div class="row">
-            <div class="col-12">
-                <div class="content-promo-banner__background">
-                    <div class="row">
-                        <div class="col-12 col-sm-6 col-md-4 content-promo-banner__image-column ">
-                            <div class="content-promo-banner__image bg" data-desktop-src="img/finance-education-2.jpg" data-mobile-src="img/finance-education-2.jpg">
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-8 content-promo-banner__content-column">
-                            <div class="content-promo-banner__content link">
-                                
-                                    <div class="content-promo-banner__eyebrow font-eyebrow-1">
-                                        <p>사회초년생을 위한 금융교육</p>
-                                    </div>
-                                
-                                
-                                    <div class="content-promo-banner__headline font-header-4 font-header-5-sm font-header-4-md">
-                                        <p>‘알.쓸.금.잡’ 알아두자! 쓸모있는 금융 & 잡스킬 교육</p>
-
-                                    </div>
-                                
-                                
-                                    <div class="content-promo-banner__copy font-body-1 font-body-3-sm">
-                                    2017년 새롭게 시작된 사회초년생 금융교육은 취업을 앞둔 특성화 고등학교 학생들에게 꼭 필요한 전반적인 금융교육을 통해 첫 사회진출시 알아두면 좋은 합리적인 경제인식과 올바른 경제관념을 기를 수 있는 기회를 제공합니다.더불어 알.쓸.금.잡 금융교육은 100여명의 메트라이프생명 임직원 및 필드 Agents가 재능기부로 함께하고 전문강사진을 구성하여 취업역량 강화 프로그램을 실시합니다. 매년 1000여명의 학생들이 준비된 사회인이 될 수 있도록 실질적인 교육을 진행합니다.
-                                    </div>
-                                
-                                
-                                    
-                                    <!--
-                                        <div class="content-promo-banner__cta-link">
-                                            <a class="font-cta-1" href="#" target="_self">
-                                                <span>CTA Text Link</span>
-                                                <svg class="icon icon-chevron-right">
-                                                    <use xlink:href="/static/images/icons-metlife.svg#icon-chevron-right"></use>
-                                                </svg>
-                                            </a>
-                                        </div>
-                                -->
-                                
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-            <div class="content-promo-banner__color-bar"></div>
-        
-    </div>
-</div></div>
-
-
-
-
 
 <?php
     include_once('../../footer.php');
