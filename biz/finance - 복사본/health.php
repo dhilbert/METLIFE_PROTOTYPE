@@ -112,7 +112,7 @@ $item_array = array(
     array('봉사시간','5,062시간'),
     array('수혜자','8,766명')
 );
-ValueProp($title,$item_array);
+//ValueProp($title,$item_array);
 
 $title = '참여프로그램';
 $want_array = array(

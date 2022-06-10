@@ -601,11 +601,19 @@ function Divider($headline,$colsize,$mdsize){
         <div class="row">
             <div class="col-<?php echo $colsize?> offset-md-<?php echo $mdsize?> responsive-columns">
                 <div class="divider__line gradient">
-                </div>                
+                </div>      
+                    <?php 
+                    
+                        if($headline=='' or Null ){}
+                        else{
+                    ?>          
                     <div class="divider__copy richtext richtext-wysiwyg">
                         <p><?php echo $headline?></p>
 
-                    </div>               
+                    </div>   
+                    <?php
+                        }
+                    ?>            
             </div>
         </div>
     </div>
@@ -793,15 +801,15 @@ function ContentPromoBannerLeft($array){
 
 <div class="component content-promo-banner component__spacing-bottom ">
     <div class="container content-promo-banner__container white image-right">
-        <div class="row">
-            <div class="col-12">
+        <div class="row ">
+            <div class="col-12 offset-md-1">
                 <div class="content-promo-banner__background">
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-4 content-promo-banner__image-column d-sm-none">
+                        <div class="col-12 col-sm-6 col-md-4   content-promo-banner__image-column d-sm-none">
                             <div class="content-promo-banner__image bg" data-desktop-src="<?php echo $array[0]?>" data-mobile-src="<?php echo $array[0]?>">
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-8 content-promo-banner__content-column">
+                        <div class="col-12 col-sm-6 col-md-7 content-promo-banner__content-column">
                             <div class="content-promo-banner__content button">
                                     <?php
                                         if($array[1]==Null or ""){}
@@ -838,7 +846,7 @@ function ContentPromoBannerLeft($array){
                             </div>
                         </div>
                         
-                            <div class="col-12 col-sm-6 col-md-4 content-promo-banner__image-column d-none d-sm-block">
+                            <div class="col-12 col-sm-6 col-md-4  content-promo-banner__image-column d-none d-sm-block">
                                 <div class="content-promo-banner__image bg" data-mobile-src="<?php echo $array[0]?>" data-desktop-src="<?php echo $array[0]?>">
                                 </div>
                             </div>
@@ -848,7 +856,7 @@ function ContentPromoBannerLeft($array){
             </div>
         </div>
         
-            <div class="content-promo-banner__color-bar"></div>
+            <div class="content-promo-banner__color-bar offset-md-1 "></div>
         
     </div>
 </div></div>
@@ -863,7 +871,7 @@ function ContentPromoBannerRight($array){
 <div class="component content-promo-banner component__spacing-bottom ">
     <div class="container content-promo-banner__container gray image-left">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 offset-md-1">
                 <div class="content-promo-banner__background">
                     <div class="row">
                         <div class="col-12 col-sm-6 col-md-4 content-promo-banner__image-column ">
@@ -871,7 +879,7 @@ function ContentPromoBannerRight($array){
                         <div class="content-promo-banner__image bg" data-desktop-src="<?php echo $array[0]?>" data-mobile-src="<?php echo $array[0]?>">
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-8 content-promo-banner__content-column">
+                        <div class="col-12 col-sm-6 col-md-7 content-promo-banner__content-column">
                             <div class="content-promo-banner__content link">
                                 
                             <?php
@@ -941,13 +949,13 @@ function ValueProp($title,$item_array){
                 <div class="col-4 col-md-2 value-prop__controls">
                     <a class="carousel-control left js-leftClick" href="JavaScript:void(0);" role="button" tabindex="0" aria-label="Prev">
                         <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
-                            <use xlink:href="/static/images/icons-metlife.svg#icon-chevron-left" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                            <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-left" aria-hidden="true" tabindex="-1" focusable="false"></use>
                         </svg>
                     </a>
                     <span class="updatepipe"></span>
                     <a class="carousel-control right js-rightClick" href="JavaScript:void(0);" role="button" tabindex="0" aria-label="Next">
                         <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
-                            <use xlink:href="/static/images/icons-metlife.svg#icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                            <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false"></use>
                         </svg>
                     </a>
                 </div>
@@ -1036,10 +1044,235 @@ function ValueProp($title,$item_array){
 </section>
 </div>
 <?php 
-                            }
+}
+
+function relatedcontentrecirc($title,$want_array){
                     
 ?>
+   
+<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/related-content-recirc-variations/clientlibs.min.js" defer></script>
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/related-content-recirc-variations/clientlibs.min.css" type="text/css">
+   
+<section id="related-content-recirc-variations_related_content_reci_1437122540" class="related-content-recirc-variations recirc-variations component component__spacing-bottom bg series " aria-labelledby="related_content_reci_1437122540--labelledby">
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-11 offset-md-1 col-lg-11-offset-1-right-edge col-padding-right-none filmstrip__container">
+            <div class="filmstrip__container-barOne"></div>
+            <div class="filmstrip__container-barTwo"></div>
+            <div class="filmstrip__container-barThree"></div>
+        </div>
+        <div class="col-12 col-md-11 offset-md-1 col-lg-11-offset-1-right-edge col-padding-right-none recirc-variations--carousel ">
+            <div class="row recirc-variations--carousel__heading">
+                <div class="col-8 recirc-variations--header" id="related_content_reci_1437122540--labelledby"><?php echo $title?></div>
+                <div class="col-4 recirc-variations--indicators">
+                    <button class="carousel-control left js-leftClick">
+                        <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
+                            <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-left" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                        </svg>
+                    </button>
+                    <span class="updatepipe"></span>
+                    <button class="carousel-control right js-rightClick">
+                        <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
+                            <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 recirc-content-items" aria-live="assertive" aria-atomic="true">
+                    
+                        <?php 
+                            for($i = 0 ; $i < count($want_array);$i++){
+                                $temp = $want_array[$i];
+                        ?>
+                            <div class="item">
+                                <div class="recirc-content-items--left bg" style="background-image: url('<?php echo $temp[0]?>')"></div>
+                                <div class="recirc-content-items--right">
+                                    <div class="recirc-variations--eyebrow">Eyebrow</div>
+                                    <div class="recirc-variations--title">
+                                        <a href="<?php echo $temp[1]?>'" target="_self"><?php echo $temp[2]?></a>
+                                    </div>
+                                    
+                                        <p class="recirc-variations--subcaption"><?php echo $temp[3]?>'</p>
+                                    
+                                    
+                                        <div class="recirc-variations--readTime"><?php echo $temp[4]?>'</div>
+                                    
+                                </div>
+                            </div>
+                        <?php
+                            }
+                            ?>
+                        
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-11 offset-md-1 col-lg-11-offset-1-right-edge col-padding-right-none filmstrip__container">
+            <div class="filmstrip__container-barOne"></div>
+            <div class="filmstrip__container-barTwo"></div>
+            <div class="filmstrip__container-barThree"></div>
+        </div>
+    </div>
+</div>
+
+    
+</section></div>
+<?php
+}
+
+function ValueProp_array($title,$item_array){
+?>
+<div class="content-parsys parsys">
+    <div class="value-prop parbase">
+<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.js" defer></script>
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.css" type="text/css">
+
+<section class="component value-prop component__spacing-bottom   " role="region" aria-labelledby="value_prop--labelledby" aria-roledescription="carousel">
+    <div id="value_prop--labelledby" class="d-none" aria-hidden="true"></div>
+    <div class="gradiant-div"></div>
+    <div class="value-prop__wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-11 offset-md-1 value-prop__bar">
+                    <div class="value-prop__border"></div>
+                </div>
+            </div>
+            <div class="header_panel row">
+                
+                    <h2 class="col-8 offset-md-1 font-header-4 font-header-4-sm font-header-2-md value-prop__title"><p><?php echo $title?></p>                    </h2>
+                
+                <div class="col-4 col-md-2 value-prop__controls">
+                    <a class="carousel-control left js-leftClick" href="#" role="button" tabindex="0" aria-label="Prev">
+                        <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
+                            <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-left" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                        </svg>
+                    </a>
+                    <span class="updatepipe"></span>
+                    <a class="carousel-control right js-rightClick" href="#" role="button" tabindex="0" aria-label="Next">
+                        <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
+                            <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 offset-md-1 col-lg-11-offset-1-right-edge carousel-4-items carousel-4-items value-prop__item-container" data-aos="fade-left" data-aos-delay="350" data-aos-duration="750" aria-live="assertive" aria-atomic="true">
+                    
+                        <?php
+                            for($i = 0 ; $i < count($item_array);$i++){
+                                $temps = $item_array[$i];
+                        ?>
+                        <div class="value-prop__item ">
+                            <div class="value-prop__container">                                
+                                    <div class="value-prop__item__bg"><img src="<?php echo $temps[0]?>" alt="" aria-hidden="true"/></div>                                
+                                <div class="value-prop__item__content  ">                                    
+                                    <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm"><p><?php echo $temps[1]?></p></div>
+                                    <div class="value-prop__item__description font-body-2 font-body-2-sm"><p><?php echo $temps[2]?></p></div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php
+                        }
+                    ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section></div>
 
 
 
+<?php 
+}
 
+function QuoteFeatureBreaker($array){
+?>
+<div class="quote-breaker parbase">
+<script type="text/javascript" src="https://www.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/quote-breaker/clientlibs.min.js" defer></script>
+<link rel="stylesheet" href="https://www.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/quote-breaker/clientlibs.min.css" type="text/css">
+<div class="quote-breaker component component__spacing-bottom ">
+<div class="container quote-breaker-container">
+    <div class="row">
+        <div class="col-12 col-md-10 offset-md-1">
+                        <div class="row quote-breaker-imagetext-section quote-breaker-imagetext-section-nogradient">
+                            <div class="col-12 col-sm-6 col-md-6 quote-breaker-image-mobile-spacing">
+                                <div class="quote-breaker__image quote-breaker-image-nogradient" style="background-image:url('<?php echo $array[0]?>')"></div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6  quote-breaker-content">
+                                <div class="quote-icon-start" aria-hidden="true">
+                                    <span></span>
+                                </div>
+                                <blockquote class="offset-md-1 quote-breaker-quote-text font-desc-2">           <?php echo $array[1]?>                                </blockquote>
+                                <div class="quote-breaker-author-config">
+                                    <div class="quote-breaker-author">
+                                        <div class="author-name font-byline-1">                                        <?php echo $array[2]?>                                        </div>
+                                        <div class="author-jobtitle">
+                                            <div class="author-job font-byline-2">                                            <?php echo $array[3]?>                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+        </div>
+    </div>    
+    </div>
+    </div></div>
+    <?php }
+    
+    
+    function VideoPromo($array){   
+    
+    ?>
+        <div class="video-promo parbase">
+                <script type="text/javascript"
+                    src="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/components/content/global/video-promo/clientlibs.min.js"
+                    defer></script>
+                <link rel="stylesheet"
+                    href="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/components/content/global/video-promo/clientlibs.min.css"
+                    type="text/css">
+                <div class="video-promo component component__spacing-bottom  ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-10 offset-md-1">
+                                <div class="video-promo__container">
+                                    <div class="video-promo__container--background "></div>
+                                    <div class="video-promo__content">
+                                        <h2
+                                            class="video-promo__content--title font-header-4 font-header-5-sm font-header-4-md"><?php echo $array[0]?></h2>
+                                        <div class="video-promo__content--copy font-body-1 font-body-3-sm">
+                                            <p><?php echo $array[1]?></p>
+                                        </div>
+                                        <div class="video-promo__content--cta font-cta-5 ">
+                                            <a href="<?php echo $array[2]?>" target="_blank" aria-label="크게 보기">
+                                                <span> <span><?php echo $array[3]?></span></span>
+                                                <svg class="icon icon-chevron-right" aria-hidden="true" tabindex="-1"
+                                                    focusable="false">
+                                                    <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-right"
+                                                        aria-hidden="true" tabindex="-1" focusable="false"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="video_container" role="region">
+                                        <div class="videoWrapper videoWrapper--youtube">
+
+                                        <iframe id="player1" width="100%" height="100%" src="<?php echo $array[4]?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<?php 
+    }
+?>

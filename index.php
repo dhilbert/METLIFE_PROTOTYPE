@@ -75,7 +75,7 @@
 			";		$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
 			
 			
-		}elseif($info['it_int']!=5){
+		}else{
 			if($info['it_url2']!=Null){
 				$values = "<a href='".$info['it_url2']."' class='btn btn-primary' target='_blank'>보기<a/>";		$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
 			}else{
@@ -83,20 +83,6 @@
 			}
 		}
 		
-		
-		
-		else{
-
-			$values = "<a href='".$info['it_url2']."' class='btn btn-primary' target='_blank'>1안<a/>  / 
-			<a href='/METLIFE_PROTOTYPE/biz/finance/inclusion2.php' class='btn btn-primary' target='_blank'>2안<a/> / <a href='/METLIFE_PROTOTYPE/biz/finance/inclusion3.php' class='btn btn-primary' target='_blank'>3안<a/>/ <a href='/METLIFE_PROTOTYPE/biz/finance/inclusion4.php' class='btn btn-primary' target='_blank'>4안<a/>
-
-			
-			
-			";	
-			$temp_text=$temp_text.Cutie_hd_td($num,$values);$num += 1;
-
-		}
-
 
 		
 		if($info['it_result']==""){
