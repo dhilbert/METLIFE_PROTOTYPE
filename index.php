@@ -244,7 +244,9 @@
 				<h1 class="page-header">관리자 페이지 현황판</h1>
 				<p>
 				<p>https://211.47.7.16:7070/ntapp/auth/login
+				<!--
 				<p>※ 로그인 정보 : mtlf_admin/ aprkwhs12#$ 
+-->
 				<p>먼저 로그인 확인 가능 
 				<p>
 

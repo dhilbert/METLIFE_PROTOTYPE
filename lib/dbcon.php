@@ -589,38 +589,66 @@ function wysisyg($headline,$subtext){
 }
 
 function Divider($headline,$colsize,$mdsize){
-?>
-   
-<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/divider/clientlibs.min.js" defer></script>
-<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/divider/clientlibs.min.css" type="text/css">
+    ?>
+       
+    <script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/divider/clientlibs.min.js" defer></script>
+    <link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/divider/clientlibs.min.css" type="text/css">
+        
+    <div class="divider parbase">
+        <section id="divider-1874135748" class="divider component component__spacing-bottom " role="region" aria-labelledby="divider-1874135748--labelledby">
+        <div id="divider-1874135748--labelledby" class="d-none" aria-hidden="true"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-<?php echo $colsize?> offset-md-<?php echo $mdsize?> responsive-columns">
+                    <div class="divider__line gradient">
+                    </div>      
+                        <?php 
+                        
+                            if($headline=='' or Null ){}
+                            else{
+                        ?>          
+                        <div class="divider__copy richtext richtext-wysiwyg">
+                            <p><?php echo $headline?></p>
     
-<div class="divider parbase">
-    <section id="divider-1874135748" class="divider component component__spacing-bottom " role="region" aria-labelledby="divider-1874135748--labelledby">
-    <div id="divider-1874135748--labelledby" class="d-none" aria-hidden="true"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-<?php echo $colsize?> offset-md-<?php echo $mdsize?> responsive-columns">
-                <div class="divider__line gradient">
-                </div>      
-                    <?php 
-                    
-                        if($headline=='' or Null ){}
-                        else{
-                    ?>          
-                    <div class="divider__copy richtext richtext-wysiwyg">
-                        <p><?php echo $headline?></p>
-
-                    </div>   
-                    <?php
-                        }
-                    ?>            
+                        </div>   
+                        <?php
+                            }
+                        ?>            
+                </div>
             </div>
         </div>
-    </div>
-    </section></div>
+        </section></div>
+    
+    <?php 
+    }
+    
 
-<?php 
-}
+    
+function Divider2($headline,$colsize,$mdsize){
+    ?>
+       
+    <script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/divider/clientlibs.min.js" defer></script>
+    <link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/divider/clientlibs.min.css" type="text/css">
+        
+    <div class="divider parbase">
+        <section id="divider-1874135748" class="divider component component__spacing-bottom " role="region" aria-labelledby="divider-1874135748--labelledby">
+
+        <div id="divider-1874135748--labelledby" class="d-none" aria-hidden="true"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-<?php echo $colsize?> offset-md-<?php echo $mdsize?> responsive-columns">
+                
+                    <div class="divider__line gradient"><br><h2><span class="font-subhead-2"><?php echo $headline?></span></h2>      </div>      
+                        
+                </div>
+            </div>
+        </div>
+        </section></div>
+    
+    <?php 
+    }
+    
+    
 
 
 function VisualProductCard($main_text,$array){
@@ -926,125 +954,245 @@ function ContentPromoBannerRight($array){
 }
 
 function ValueProp($title,$item_array){
-?>
-<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.js" defer></script>
-<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.css" type="text/css">
-
-<section class="component value-prop component__spacing-bottom   " role="region" aria-labelledby="value_prop_1311114780--labelledby">
-    <div id="value_prop_1311114780--labelledby" class="d-none" aria-hidden="true"></div>
-    <div class="gradiant-div"></div>
-    <div class="value-prop__wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-11 offset-md-1 value-prop__bar">
-                    <div class="value-prop__border"></div>
+    ?>
+    <script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.js" defer></script>
+    <link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.css" type="text/css">
+    
+    <section class="component value-prop component__spacing-bottom   " role="region" aria-labelledby="value_prop_1311114780--labelledby">
+        <div id="value_prop_1311114780--labelledby" class="d-none" aria-hidden="true"></div>
+        <div class="gradiant-div"></div>
+        <div class="value-prop__wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-11 offset-md-1 value-prop__bar">
+                        <div class="value-prop__border"></div>
+                    </div>
+                </div>
+                <div class="header_panel row">                
+                        <h2 class="col-8 offset-md-1 font-header-4 font-header-4-sm font-header-2-md value-prop__title">
+                            <p><?php echo $title?></p>
+    
+                        </h2>
+                    
+                    <div class="col-4 col-md-2 value-prop__controls">
+                        <a class="carousel-control left js-leftClick" href="JavaScript:void(0);" role="button" tabindex="0" aria-label="Prev">
+                            <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
+                                <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-left" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                            </svg>
+                        </a>
+                        <span class="updatepipe"></span>
+                        <a class="carousel-control right js-rightClick" href="JavaScript:void(0);" role="button" tabindex="0" aria-label="Next">
+                            <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
+                                <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="header_panel row">                
-                    <h2 class="col-8 offset-md-1 font-header-4 font-header-4-sm font-header-2-md value-prop__title">
-                        <p><?php echo $title?></p>
-
-                    </h2>
-                
-                <div class="col-4 col-md-2 value-prop__controls">
-                    <a class="carousel-control left js-leftClick" href="JavaScript:void(0);" role="button" tabindex="0" aria-label="Prev">
-                        <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
-                            <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-left" aria-hidden="true" tabindex="-1" focusable="false"></use>
-                        </svg>
-                    </a>
-                    <span class="updatepipe"></span>
-                    <a class="carousel-control right js-rightClick" href="JavaScript:void(0);" role="button" tabindex="0" aria-label="Next">
-                        <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
-                            <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false"></use>
-                        </svg>
-                    </a>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 offset-md-1 col-lg-11-offset-1-right-edge carousel-4-items no-carousel value-prop__item-container" data-aos="fade-left" data-aos-delay="350" data-aos-duration="750">
+                        
+                            <div class="value-prop__item col-md-3">
+                                <div class="value-prop__container">
+                                
+                                        <div class="value-prop__item__bg">
+                                            <img src="/METLIFE_PROTOTYPE/img/p_endowment_≤120p.png" alt="" aria-hidden="true"/>
+                                        </div>
+                                    
+                                    <div class="value-prop__item__content  ">
+                                        
+                                            <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
+                                                <p><b><?php echo $item_array[0][0]?></b></p>
+    
+                                            </div>
+                                        
+                                        <div class="value-prop__item__description font-body-2 font-body-2-sm">
+                                            <p><?php echo $item_array[0][1]?></p>
+    
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        
+                            <div class="value-prop__item col-md-3">
+                                <div class="value-prop__container">
+                                
+                                        <div class="value-prop__item__bg">
+                                            <img src="/METLIFE_PROTOTYPE/img/utility-1_clock_≤120p.png" alt="" aria-hidden="true"/>
+                                        </div>
+                                    
+                                    <div class="value-prop__item__content  ">
+                                        
+                                            <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
+                                                <p><b><?php echo $item_array[1][0]?>    </b></p>
+    
+                                            </div>
+                                        
+                                        <div class="value-prop__item__description font-body-2 font-body-2-sm">
+                                            <p><?php echo $item_array[1][1]?>    </p>
+    
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        
+                            <div class="value-prop__item col-md-3">
+                                <div class="value-prop__container">
+                                
+                                        <div class="value-prop__item__bg">
+                                            <img src="/METLIFE_PROTOTYPE/img/hr_beneficiary-designation_≤120p.png" alt="" aria-hidden="true"/>
+                                        </div>
+                                    
+                                    <div class="value-prop__item__content  ">
+                                        
+                                            <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
+                                                <p><b><?php echo $item_array[2][0]?>        </b></p>
+    
+                                            </div>
+                                        
+                                        <div class="value-prop__item__description font-body-2 font-body-2-sm">
+                                            <p><?php echo $item_array[2][1]?>        </p>
+    
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 offset-md-1 col-lg-11-offset-1-right-edge carousel-4-items no-carousel value-prop__item-container" data-aos="fade-left" data-aos-delay="350" data-aos-duration="750">
-                    
-                        <div class="value-prop__item col-md-3">
-                            <div class="value-prop__container">
-                            
-                                    <div class="value-prop__item__bg">
-                                        <img src="/METLIFE_PROTOTYPE/img/p_endowment_≤120p.png" alt="" aria-hidden="true"/>
-                                    </div>
-                                
-                                <div class="value-prop__item__content  ">
-                                    
-                                        <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
-                                            <p><b><?php echo $item_array[0][0]?></b></p>
-
-                                        </div>
-                                    
-                                    <div class="value-prop__item__description font-body-2 font-body-2-sm">
-                                        <p><?php echo $item_array[0][1]?></p>
-
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                    
-                        <div class="value-prop__item col-md-3">
-                            <div class="value-prop__container">
-                            
-                                    <div class="value-prop__item__bg">
-                                        <img src="/METLIFE_PROTOTYPE/img/utility-1_clock_≤120p.png" alt="" aria-hidden="true"/>
-                                    </div>
-                                
-                                <div class="value-prop__item__content  ">
-                                    
-                                        <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
-                                            <p><b><?php echo $item_array[1][0]?>    </b></p>
-
-                                        </div>
-                                    
-                                    <div class="value-prop__item__description font-body-2 font-body-2-sm">
-                                        <p><?php echo $item_array[1][1]?>    </p>
-
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                    
-                        <div class="value-prop__item col-md-3">
-                            <div class="value-prop__container">
-                            
-                                    <div class="value-prop__item__bg">
-                                        <img src="/METLIFE_PROTOTYPE/img/hr_beneficiary-designation_≤120p.png" alt="" aria-hidden="true"/>
-                                    </div>
-                                
-                                <div class="value-prop__item__content  ">
-                                    
-                                        <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
-                                            <p><b><?php echo $item_array[2][0]?>        </b></p>
-
-                                        </div>
-                                    
-                                    <div class="value-prop__item__description font-body-2 font-body-2-sm">
-                                        <p><?php echo $item_array[2][1]?>        </p>
-
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                    
-                </div>
-            </div>
-        </div>
+    </section>
     </div>
-</section>
-</div>
-<?php 
-}
+    <?php 
+    }
+    function ValueProp_value($title,$item_array){
+        ?>
+        <script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.js" defer></script>
+        <link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/value-prop/clientlibs.min.css" type="text/css">
+        
+        <section class="component value-prop component__spacing-bottom   " role="region" aria-labelledby="value_prop_1311114780--labelledby">
+            <div id="value_prop_1311114780--labelledby" class="d-none" aria-hidden="true"></div>
+            <div class="gradiant-div"></div>
+            <div class="value-prop__wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-11 offset-md-1 value-prop__bar">
+                            <div class="value-prop__border"></div>
+                        </div>
+                    </div>
+                    <div class="header_panel row">                
+                            <h2 class="col-8 offset-md-1 font-header-4 font-header-4-sm font-header-2-md value-prop__title">
+                                <p><?php echo $title?></p>
+        
+                            </h2>
+                        
+                        <div class="col-4 col-md-2 value-prop__controls">
+                            <a class="carousel-control left js-leftClick" href="JavaScript:void(0);" role="button" tabindex="0" aria-label="Prev">
+                                <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
+                                    <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-left" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                                </svg>
+                            </a>
+                            <span class="updatepipe"></span>
+                            <a class="carousel-control right js-rightClick" href="JavaScript:void(0);" role="button" tabindex="0" aria-label="Next">
+                                <svg class="icon brand-4th" aria-hidden="true" tabindex="-1" focusable="false">
+                                    <use xlink:href="/METLIFE_PROTOTYPE/css/icons-metlife.svg#icon-chevron-right" aria-hidden="true" tabindex="-1" focusable="false"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 offset-md-1 col-lg-11-offset-1-right-edge carousel-4-items no-carousel value-prop__item-container" data-aos="fade-left" data-aos-delay="350" data-aos-duration="750">
+                            
+                                <div class="value-prop__item col-md-3">
+                                    <div class="value-prop__container">
+                                    
+                                            <div class="value-prop__item__bg">
+                                                <img src="/METLIFE_PROTOTYPE/img/p_endowment_≤120p.png" alt="" aria-hidden="true"/>
+                                            </div>
+                                        
+                                        <div class="value-prop__item__content  ">
+                                            
+                                                <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
+                                                    <p><b>봉사자</b></p>
+        
+                                                </div>
+                                            
+                                            <div class="value-prop__item__description font-body-2 font-body-2-sm">
+                                                <p><?php echo $item_array[0]?> 명</p>
+        
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            
+                                <div class="value-prop__item col-md-3">
+                                    <div class="value-prop__container">
+                                    
+                                            <div class="value-prop__item__bg">
+                                                <img src="/METLIFE_PROTOTYPE/img/utility-1_clock_≤120p.png" alt="" aria-hidden="true"/>
+                                            </div>
+                                        
+                                        <div class="value-prop__item__content  ">
+                                            
+                                                <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
+                                                    <p><b>봉사시간   </b></p>
+        
+                                                </div>
+                                            
+                                            <div class="value-prop__item__description font-body-2 font-body-2-sm">
+                                                <p><?php echo $item_array[1]?> 시간   </p>
+        
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            
+                                <div class="value-prop__item col-md-3">
+                                    <div class="value-prop__container">
+                                    
+                                            <div class="value-prop__item__bg">
+                                                <img src="/METLIFE_PROTOTYPE/img/hr_beneficiary-designation_≤120p.png" alt="" aria-hidden="true"/>
+                                            </div>
+                                        
+                                        <div class="value-prop__item__content  ">
+                                            
+                                                <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm">
+                                                    <p><b>수혜자   </b></p>
+        
+                                                </div>
+                                            
+                                            <div class="value-prop__item__description font-body-2 font-body-2-sm">
+                                                <p><?php echo $item_array[2]?> 명</p>
+        
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <?php 
+        }
 
 function relatedcontentrecirc($title,$want_array){
                     
@@ -1168,8 +1316,15 @@ function ValueProp_array($title,$item_array){
                                 $temps = $item_array[$i];
                         ?>
                         <div class="value-prop__item ">
-                            <div class="value-prop__container">                                
+                            <div class="value-prop__container">
+                                    <?php 
+                                        if($temps[0]==null){}
+                                        else{
+                                    ?>
                                     <div class="value-prop__item__bg"><img src="<?php echo $temps[0]?>" alt="" aria-hidden="true"/></div>                                
+                                    <?php
+                                        }
+                                    ?>
                                 <div class="value-prop__item__content  ">                                    
                                     <div class="value-prop__item-image-title font-cta-2 font-content-link-1-sm"><p><?php echo $temps[1]?></p></div>
                                     <div class="value-prop__item__description font-body-2 font-body-2-sm"><p><?php echo $temps[2]?></p></div>
@@ -1275,4 +1430,95 @@ function QuoteFeatureBreaker($array){
             </div>
 <?php 
     }
+
+
+
+
+
+function VisualProductCard3($title,$array){
+?>
+<div class="visual-product-card parbase">
+<script type="text/javascript" src="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/visual-product-card/clientlibs.min.js" defer></script>
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/visual-product-card/clientlibs.min.css" type="text/css">
+<section id="visual-product-card-1747211936" class="visual-product-card component component__spacing-bottom " role="region" aria-labelledby="visual-product-card-1747211936--labelledby">
+<div class="container">
+
+    <div class="row">
+        <div class="col-11  offset-md-1  responsive-columns">
+            <div class="row">
+                <div class="col-12">
+                    <div class="visual-product-card__eyebrow-container">
+                        <div id="visual-product-card-1747211936--labelledby" class="visual-product-card__eyebrow"><?php echo $title?></div>
+                        <div class="visual-product-card__eyebrow-gradient-bar"></div>
+                    </div>
+                </div>
+            </div>
+            
+                <div class="row">
+                        <?php
+                            for($i = 0 ; $i < count($array);$i++){
+                                $temp = $array[$i];
+                        
+                        ?>                
+                        <div class="col-12 col-sm-4 visual-product-card__card-columns">
+                            <a class="visual-product-card__card-container image gray" href="<?php echo $temp[0]; ?>" target="_self">
+                                <div class="visual-product-card__image-container">
+                                                            <div class="visual-product-card__image bg" style="background-image: url('<?php echo $temp[1]; ?>');"></div>
+                                </div>
+                                <div class="visual-product-card__content-container">
+                                    <div class="visual-product-card__gradient-bar"></div>
+                                    <div class="visual-product-card__title-container"><h2 class="visual-product-card__title"><?php echo $temp[2]; ?></h2></div>
+                                    <div class="visual-product-card__supporting-copy-container">
+                                    <div class="visual-product-card__supporting-copy richtext"><?php echo $temp[3]; ?> </div>
+        
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <?php 
+                            }
+                        ?>
+                    
+                </div>
+            
+
+        </div>
+    </div>
+</div>
+</section>
+</div>
+<?php 
+}
+
+function CliffNotes($title,$array){
+?>
+
+<div class="cliff-notes parbase">
+<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/cliff-notes/clientlibs.min.css" type="text/css">
+
+<div class="component cliff-notes component__spacing-bottom ">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-10 offset-md-1">
+                <div class="row cliff-notes__container">
+                    <h3 class="col-12 col-sm-4 col-md-5 cliff-notes__title"><?php echo $title?>
+                        
+                    </h3>
+                    <div class="col-12 col-sm-8 col-md-7 cliff-notes__bullets">
+                        <ul class="cliff-notes__bullets-list">
+                            <?php
+                                for($i=0; $i < count($array);$i++){
+                                    echo "<li>".$array[$i]."</li>";
+
+                                }
+                            ?>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+<?php 
+}
 ?>
