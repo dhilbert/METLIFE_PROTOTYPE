@@ -171,6 +171,12 @@
 			
 		</div><!--/.row-->
 		
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header">가이드</h1>
+				<a href = "/METLIFE_PROTOTYPE/biz/environment/check.php">가이드</a>
+			</div>
+		</div><!--/.row-->
 
 
 
