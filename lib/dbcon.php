@@ -562,7 +562,7 @@ function wysisyg($headline,$subtext){
     
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-11  offset-md-1 responsive-columns">
+            <div class="col-12 col-sm-8  offset-md-2 responsive-columns">
                 <div class="richtext richtext-wysiwyg">
                   
                 <?php
@@ -849,7 +849,7 @@ function ContentPromoBannerLeft($array){
                                         if($array[2]==Null or ""){}
                                         else{
                                          echo '<div class="content-promo-banner__headline font-header-4 font-header-5-sm font-header-4-md">
-                                                <p>'.$array[2].'<br /></p>
+                                                <h3>'.$array[2].'</h3>
                                             </div>' ;  
                                         }
                                         if($array[3]==Null or ""){}
@@ -920,7 +920,7 @@ function ContentPromoBannerRight($array){
                                         if($array[2]==Null or ""){}
                                         else{
                                          echo '<div class="content-promo-banner__headline font-header-4 font-header-5-sm font-header-4-md">
-                                                <p>'.$array[2].'<br /></p>
+                                                <h3>'.$array[2].'</h3>
                                             </div>' ;  
                                         }
                                         if($array[3]==Null or ""){}
