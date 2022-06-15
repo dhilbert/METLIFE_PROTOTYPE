@@ -46,51 +46,6 @@ ValueProp_array($title,$item_array);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
 <script type="text/javascript" src="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/wysiwyg-rte/clientlibs.min.js" defer></script>
 
@@ -125,131 +80,128 @@ ValueProp_array($title,$item_array);
     </div>
 </section></div>
 
+    <!--
+<script type="text/javascript" src="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/brand-promise-breaker/clientlibs.min.js" defer></script>
+   
+<link rel="stylesheet" href="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/brand-promise-breaker/clientlibs.min.css" type="text/css">
+
+-->
+<script type="text/javascript" src="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/components/content/global/brand-promise-breaker/clientlibs.min.js" defer></script>
+    
+<link rel="stylesheet" href="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/components/content/global/brand-promise-breaker/clientlibs.min.css" type="text/css">
+
+
+
+
+
+<div class="component brand-promise-breaker bg component__spacing-bottom ">
+    <div class="container">
+        <div class="row promise-breaker-border-row">
+            <div class="col-12 col-md-11 offset-md-1">
+                <div class="promise-breaker-border"></div>
+            </div>
+        </div>
+        <div class="row promise-breaker-header-row">
+            <div class="col-12 col-md-10 offset-md-1">
+                <h2 class="promise-breaker-header">사회혁신조직 투자 및 육성 프로그램(2019년~)</h2>
+               
+            </div>
+        </div>
+        
+        
+            <div class="row promise-breaker-content-row" data-aos="fade" data-aos-anchor-placement="center-center">
+                <div class="col-12 col-sm-6 col-md-5 offset-md-1 promise-breaker-left">
+                    <h5 class="promise-breaker-title">맞춤형 엑셀러레이팅<br>(Acceralating)</h5>
+                </div>
+                <div class="col-12 col-sm-6 col-md-5 promise-breaker-right">
+                    <div class="promise-breaker-border"></div>
+                    <div class="promise-breaker-copy"><p>
+                        <p><li>최대 10개 조직 선정 / 사업지원금 1천만원</li>
+                        <li>전문 분야 컨설팅 : ICT, 법률, 마케팅 등 필요한 영역 멘토링, 특정 문제 원인 진단 및 솔루션 컨설팅</li>
+                        <li>심화 경영진단 및 전략 멘토링: 비즈니스 모델 강화, MP 작성을 통한 사회적 가치 극대화</li>
+                        <li>IR 및 피칭 컨설팅: 투자유치 기초준비, IR Deck 작성, 피칭 스킬 교육 등</li>
+                        <li>담임멘토링: 기존 참여 시 TOP 선정기업 1:1 멘토링 (사업운영 노하우 및 네트워킹 확대 마련)</li></div>
+                </div>
+            </div>
+        
+            <div class="row promise-breaker-content-row" data-aos="fade" data-aos-anchor-placement="center-center">
+            <div class="col-12 col-sm-6 col-md-5 offset-md-1 promise-breaker-left">
+                    <h5 class="promise-breaker-title">임팩트 투자<br>(Impact Investment)</h5>
+                </div>
+                <div class="col-12 col-sm-6 col-md-5 promise-breaker-right">
+                    <div class="promise-breaker-border"></div>
+                    <div class="promise-breaker-copy"><p> 
+                        
+                        <li>임팩트투자 데모데이 'Deal Share Live’: 사업계획안 피칭 및 투자 심사, 임팩트 투자자와의 Roundtable을 통한 후속 투자유치 기회 제공</li>
+                        <li>임팩트 투자 조직 선정: 성장성 및 Social Value 등 심사, TOP 3 기업 선정 및 임팩트 투자(기업당 5천만원)</li>
+                        <li>공동운영기관 최소 1개팀 이상 2억원 및 TIPS 7억 후속 투자기회</li></p>
+</div>
+                </div>
+            </div>
+        
+            
+            <div class="row promise-breaker-content-row" data-aos="fade" data-aos-anchor-placement="center-center">
+                <div class="col-12 col-sm-6 col-md-5 offset-md-1 promise-breaker-left">
+                    <h6 class="promise-breaker-title">TOP3 조직 – 글로벌 프로그램 참여</h6>
+                </div>
+                <div class="col-12 col-sm-6 col-md-5 promise-breaker-right">
+                    <div class="promise-breaker-border"></div>
+                    <div class="promise-breaker-copy"><p>
+                            <li>타국가 사회혁신 조직과 네트워킹 프로그램                        </li>
+                            <li>해외 Fin-tech관련 이벤트 참여</li></p>
+</div>
+                </div>
+            </div>
+        
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
    
 
     
-<div class="divider parbase">  
-<script type="text/javascript" src="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/divider/clientlibs.min.js" defer></script>
-<link rel="stylesheet" href="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/divider/clientlibs.min.css" type="text/css">
-<section id="divider-774508003" class="divider component component__spacing-bottom " role="region" aria-labelledby="divider-774508003--labelledby" style="margin-bottom: 60px; ">
-    <div id="divider-774508003--labelledby" class="d-none" aria-hidden="true">
-</div>
-    <div class="container">
-        <div class="row">
-        <div class="col-12 col-md-11 offset-md-1 responsive-columns">
-                <div class="divider__line gradient" style="height: 6px; ">
-                </div>
-                
-                    <div class="divider__copy richtext richtext-wysiwyg">
-                        <p><span class="font-header-2">사회혁신조직 투자 및 육성 프로그램(2019년~)</span></p>
-
-                    </div>
-                
-            </div>
-        </div>
-    </div>
-</section></div>
-</div>
-
-
-<div class="cliff-notes parbase">
-<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/cliff-notes/clientlibs.min.css" type="text/css">
-<div class="component cliff-notes component__spacing-bottom ">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-10 offset-md-2">
-                <div class="row cliff-notes__container">
-                    
-                    <h3 class="col-12 col-sm-4 col-md-4 cliff-notes__title">
-                    맞춤형 엑셀러레이팅<br> (Acceralating)
-
-                    </h3>
-
-                    <div class="col-12 col-sm-8 col-md-8 cliff-notes__bullets">
-
-
-                        <ul class="cliff-notes__bullets-list">
-                        
-                        <li>최대 10개 조직 선정 / 사업지원금 1천만원</li>
-                        <li>전문 분야 컨설팅 : ICT, 법률, 마케팅 등 필요한 영역 멘토링, 특정 문제 원인 진단 및 솔루션 컨설팅</li>
-                        <li>심화 경영진단 및 전략 멘토링: 비즈니스 모델 강화, MP 작성을 통한 사회적 가치 극대화</li>
-                        <li>IR 및 피칭 컨설팅: 투자유치 기초준비, IR Deck 작성, 피칭 스킬 교육 등</li>
-                        <li>담임멘토링: 기존 참여 시 TOP 선정기업 1:1 멘토링 (사업운영 노하우 및 네트워킹 확대 마련)</li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div></div>
- 
-<div class="cliff-notes parbase">
-<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/cliff-notes/clientlibs.min.css" type="text/css">
-<div class="component cliff-notes component__spacing-bottom ">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-10 offset-md-2">
-                <div class="row cliff-notes__container">
-                    
-                    <h3 class="col-12 col-sm-4 col-md-4 cliff-notes__title">
-                    임팩트 투자<br> (Impact Investment)
-
-
-                    </h3>
-
-                    <div class="col-12 col-sm-8 col-md-8 cliff-notes__bullets">
-
-
-                        <ul class="cliff-notes__bullets-list">
-                        
-                        
-                        <li>임팩트투자 데모데이 'Deal Share Live’: 사업계획안 피칭 및 투자 심사, 임팩트 투자자와의 Roundtable을 통한 후속 투자유치 기회 제공</li>
-                        <li>임팩트 투자 조직 선정: 성장성 및 Social Value 등 심사, TOP 3 기업 선정 및 임팩트 투자(기업당 5천만원)</li>
-                        <li>공동운영기관 최소 1개팀 이상 2억원 및 TIPS 7억 후속 투자기회</li>
-
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div></div>
-<div class="cliff-notes parbase">
-<link rel="stylesheet" href="https://evolution.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/cliff-notes/clientlibs.min.css" type="text/css">
-<div class="component cliff-notes component__spacing-bottom ">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-10 offset-md-2">
-                <div class="row cliff-notes__container">
-                    
-                    <h3 class="col-12 col-sm-4 col-md-4 cliff-notes__title">
-                    TOP3 조직 – 글로벌 프로그램 참여
-
-
-
-                    </h3>
-
-                    <div class="col-12 col-sm-8 col-md-8 cliff-notes__bullets">
-
-
-                        <ul class="cliff-notes__bullets-list">
-                        
-                      
-                            <li>타국가 사회혁신 조직과 네트워킹 프로그램                        </li>
-                            <li>해외 Fin-tech관련 이벤트 참여</li>
-
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div></div>
 
     
 <div class="divider parbase">  

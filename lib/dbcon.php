@@ -552,8 +552,6 @@ function GenericHero($headline,$subtext){
 
 <?php
 }
-
-
 function wysisyg($headline,$subtext){
 ?>    
 <script type="text/javascript" src="https://design.metlife.com/etc.clientlibs/MetlifeMarketCore/components/content/global/wysiwyg-rte/clientlibs.min.js" defer></script>
@@ -849,12 +847,12 @@ function ContentPromoBannerLeft($array){
                                         if($array[2]==Null or ""){}
                                         else{
                                          echo '<div class="content-promo-banner__headline font-header-4 font-header-5-sm font-header-4-md">
-                                                <h3>'.$array[2].'</h3>
+                                                <h5><b>'.$array[2].'</b></h5>
                                             </div>' ;  
                                         }
                                         if($array[3]==Null or ""){}
                                         else{
-                                         echo '   <div class="content-promo-banner__copy font-body-1 font-body-3-sm">
+                                         echo '   <div class="content-h2romo-banner__copy font-body-1 font-body-3-sm">
                                                 <p>'.$array[3].'<br /></p>
                                             </div>' ;  
                                         }

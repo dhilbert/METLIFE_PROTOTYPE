@@ -38,14 +38,14 @@ $array = array(
     '서울대');
 QuoteFeatureBreaker($array);
 $array = array(
-    'https://www.metlifewelfare.org/images/app/region-forum-2.jpg',
+    '/METLIFE_PROTOTYPE/img/blank.png',
     'Financial Health, Global Challenge,<br>재무 안전성을 높이기 위한 솔루션과 Financial Health를 위한 디지털 서비스의 접근성 등 함께 고민해 나아가야 할 부분들을 소개',
     'Evelyn Stark',
     'Assistant Vice President, MetLife Foundation');
 QuoteFeatureBreaker($array);
 
 $array = array(
-    'https://www.metlifewelfare.org/images/app/region-forum-3.jpg',
+    '/METLIFE_PROTOTYPE/img/blank.png',
     'Financial Health, An International Perspective ,<br>성공의 개념이 과거와 달리 단순히 부의 정도가 아닌 건강이나 돈을 쓰는 방법 등을 포함하여 재무적인 건강을 측정하는 요소들로 꼽히고 있음 Financial Health에 대한 현재의 접근 방향을 제시',
     
     'Brenton Peck',
@@ -62,7 +62,7 @@ wysisyg($headline,$subtext);
 
 
 $array = array(
-    'https://www.metlifewelfare.org/images/app/region-forum-4.jpg',
+    '/METLIFE_PROTOTYPE/img/blank.png',
     '합리적인 금융 습관, 핀테크가 Financial Health의 문을 열다.<br>
     금융 데이터를 기반으로 한 금융 상품 추천부터 신용 대변인 서비스, 뱅크샐러드 앱을 통한 재무관리 습관 형성까지 디지털화를 통한 일상생활 속 금융 관리 활용 예시 소개 ',
     '김태훈 대표',
@@ -72,7 +72,7 @@ QuoteFeatureBreaker($array);
 
 
 $array = array(
-    'https://www.metlifewelfare.org/images/app/region-forum-5.jpg',
+    '/METLIFE_PROTOTYPE/img/blank.png',
     '대안신용평가, 현재의 기회와 미래가치를 연결하다. <br>
     신용등급의 개념부터 청년의 신용 상황을 되짚고, 대안신용평가를 통해 청년에게도 동등하게 혜택이 돌아갈 수 있도록 해야 한다며 젊은 세대가 공감할 수 있는 메시지 전달   ',
     '김민정 대표',
@@ -81,7 +81,7 @@ QuoteFeatureBreaker($array);
 
 
 $array = array(
-    'https://www.metlifewelfare.org/images/app/region-forum-6.jpg',
+    '/METLIFE_PROTOTYPE/img/blank.png',
     'Financial Health 증진, 금융소비자 이해에서 출발하다. <br>
     금융소비자의 행동을 다각도로 살펴볼 수 있는 예시들과 함께 행동재무학적 관점에서 Financial Health의 증진 방안을 제시',
     '주소현 교수',
