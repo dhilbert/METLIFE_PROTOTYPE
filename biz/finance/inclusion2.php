@@ -88,9 +88,40 @@ ValueProp_array($title,$item_array);
 -->
 <script type="text/javascript" src="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/components/content/global/brand-promise-breaker/clientlibs.min.js" defer></script>
     
-<link rel="stylesheet" href="https://www.metlife.co.kr/etc.clientlibs/MetlifeMarketCore/components/content/global/brand-promise-breaker/clientlibs.min.css" type="text/css">
+<style>
 
 
+.brand-promise-breaker .promise-breaker-border{position:relative}
+.brand-promise-breaker .promise-breaker-border:before{content:'';position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(to right,#0090da,#007abc,#0061a0,#a4ce4e)}
+.brand-promise-breaker .promise-breaker-border-row .promise-breaker-border{width:calc(100% + 15px)}
+.brand-promise-breaker .promise-breaker-header,.brand-promise-breaker .promise-breaker-left{font-family:'MetLifeCircular','Arial','Helvetica','sans-serif';font-weight:500;color:#000}
+.brand-promise-breaker .promise-breaker-header{font-size:24px;line-height:1.25;letter-spacing:-0.5px;color:#000;margin-top:20px;margin-bottom:30px}
+.brand-promise-breaker .promise-breaker-left{font-size:36px;line-height:1.19;letter-spacing:-0.6px}
+.brand-promise-breaker .promise-breaker-title,.brand-promise-breaker .promise-breaker-title>*:last-child{margin-bottom:0}
+.brand-promise-breaker .promise-breaker-content-row{opacity:1;transition:opacity 1.4s;margin-bottom:40px}
+.brand-promise-breaker .promise-breaker-content-row:last-of-type{margin-bottom:0}
+.brand-promise-breaker .promise-breaker-content-row:not(.aos-animate){opacity:.25}
+.brand-promise-breaker .promise-breaker-content-row .promise-breaker-border{width:50px}
+.brand-promise-breaker .promise-breaker-copy,.brand-promise-breaker .promise-breaker-copy p,.brand-promise-breaker .promise-breaker-copy span,.brand-promise-breaker .promise-breaker-copy ul,.brand-promise-breaker .promise-breaker-copy ol{font-size:16px;line-height:1.88;letter-spacing:-0.2px;color:#000;margin-top:20px}
+.brand-promise-breaker .promise-breaker-copy p,.brand-promise-breaker .promise-breaker-copy span,.brand-promise-breaker .promise-breaker-copy ul li,.brand-promise-breaker .promise-breaker-copy ol li{margin-top:0;margin-bottom:20px}
+.brand-promise-breaker .promise-breaker-copy ul li,.brand-promise-breaker .promise-breaker-copy ol li{margin-bottom:10px}
+.brand-promise-breaker .promise-breaker-copy ul,.brand-promise-breaker .promise-breaker-copy ol{list-style-type:disc;margin-left:16px}
+.brand-promise-breaker .promise-breaker-copy p:last-child,.brand-promise-breaker .promise-breaker-copy span:last-child,.brand-promise-breaker .promise-breaker-copy ul:last-child,.brand-promise-breaker .promise-breaker-copy li:last-child{margin-bottom:0}
+@media screen and (max-width:767px){.brand-promise-breaker .promise-breaker-left{margin-bottom:20px}
+}
+@media screen and (min-width:768px){.brand-promise-breaker .promise-breaker-header{font-size:44px;line-height:1.14;letter-spacing:-1px;margin-top:40px;margin-bottom:50px}
+.brand-promise-breaker .promise-breaker-left{font-size:36px;line-height:1.13;letter-spacing:-0.8px}
+.brand-promise-breaker .promise-breaker-content-row{margin-bottom:80px}
+.brand-promise-breaker .promise-breaker-copy,.brand-promise-breaker .promise-breaker-copy p,.brand-promise-breaker .promise-breaker-copy span,.brand-promise-breaker .promise-breaker-copy ul,.brand-promise-breaker .promise-breaker-copy ol{font-size:18px;line-height:1.78;letter-spacing:-0.2px;margin-top:30px}
+}
+@media screen and (min-width:1024px){.brand-promise-breaker .promise-breaker-header{font-size:44px;line-height:1.14;letter-spacing:-1px}
+.brand-promise-breaker .promise-breaker-left{font-size:36px;line-height:1.1;letter-spacing:-2.1px}
+.brand-promise-breaker .promise-breaker-content-row{margin-bottom:100px}
+.brand-promise-breaker .promise-breaker-copy{margin-top:40px}
+}
+@media screen and (min-width:1300px){.brand-promise-breaker .promise-breaker-border-row .promise-breaker-border{width:100%}
+}
+</style>
 
 
 
@@ -110,10 +141,10 @@ ValueProp_array($title,$item_array);
         
         
             <div class="row promise-breaker-content-row" data-aos="fade" data-aos-anchor-placement="center-center">
-                <div class="col-12 col-sm-6 col-md-5 offset-md-1 promise-breaker-left">
-                    <h5 class="promise-breaker-title">맞춤형 엑셀러레이팅<br>(Acceralating)</h5>
+            <div class="col-12 col-sm-5 col-md-4 offset-md-1 promise-breaker-left">
+                    <p class="promise-breaker-title">맞춤형 엑셀러레이팅<br>(Acceralating)</p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-5 promise-breaker-right">
+                <div class="col-12 col-sm-7 col-md-6 promise-breaker-right">
                     <div class="promise-breaker-border"></div>
                     <div class="promise-breaker-copy"><p>
                         <p><li>최대 10개 조직 선정 / 사업지원금 1천만원</li>
@@ -125,10 +156,10 @@ ValueProp_array($title,$item_array);
             </div>
         
             <div class="row promise-breaker-content-row" data-aos="fade" data-aos-anchor-placement="center-center">
-            <div class="col-12 col-sm-6 col-md-5 offset-md-1 promise-breaker-left">
+            <div class="col-12 col-sm-5 col-md-4 offset-md-1 promise-breaker-left">
                     <h5 class="promise-breaker-title">임팩트 투자<br>(Impact Investment)</h5>
                 </div>
-                <div class="col-12 col-sm-6 col-md-5 promise-breaker-right">
+                <div class="col-12 col-sm-7 col-md-6 promise-breaker-right">
                     <div class="promise-breaker-border"></div>
                     <div class="promise-breaker-copy"><p> 
                         
@@ -141,10 +172,10 @@ ValueProp_array($title,$item_array);
         
             
             <div class="row promise-breaker-content-row" data-aos="fade" data-aos-anchor-placement="center-center">
-                <div class="col-12 col-sm-6 col-md-5 offset-md-1 promise-breaker-left">
+                <div class="col-12 col-sm-5 col-md-4 offset-md-1 promise-breaker-left">
                     <h6 class="promise-breaker-title">TOP3 조직 – 글로벌 프로그램 참여</h6>
                 </div>
-                <div class="col-12 col-sm-6 col-md-5 promise-breaker-right">
+                <div class="col-12 col-sm-7 col-md-6 promise-breaker-right">
                     <div class="promise-breaker-border"></div>
                     <div class="promise-breaker-copy"><p>
                             <li>타국가 사회혁신 조직과 네트워킹 프로그램                        </li>
