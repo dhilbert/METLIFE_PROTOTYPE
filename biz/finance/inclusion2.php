@@ -189,6 +189,68 @@ ValueProp_array($title,$item_array);
 
 
 
+<div class="component brand-promise-breaker bg component__spacing-bottom ">
+    <div class="container">
+        <div class="row promise-breaker-border-row">
+            <div class="col-12 col-md-11 offset-md-1">
+                <div class="promise-breaker-border"></div>
+            </div>
+        </div>
+        <div class="row promise-breaker-header-row">
+            <div class="col-12 col-md-10 offset-md-1">
+                <h2 class="promise-breaker-header">사회혁신조직 투자 및 육성 프로그램(2019년~)</h2>
+               
+            </div>
+        </div>
+        
+        
+            <div class="row promise-breaker-content-row" data-aos="fade" data-aos-anchor-placement="center-center">
+            <div class="col-12 col-sm-5 col-md-4 offset-md-2 promise-breaker-left">
+                    <p class="promise-breaker-title">맞춤형 엑셀러레이팅<br>(Acceralating)</p>
+                </div>
+                <div class="col-12 col-sm-7 col-md-6 promise-breaker-right">
+                    <div class="promise-breaker-border"></div>
+                    <div class="promise-breaker-copy"><p>
+                        <p><li>최대 10개 조직 선정 / 사업지원금 1천만원</li>
+                        <li>전문 분야 컨설팅 : ICT, 법률, 마케팅 등 필요한 영역 멘토링, 특정 문제 원인 진단 및 솔루션 컨설팅</li>
+                        <li>심화 경영진단 및 전략 멘토링: 비즈니스 모델 강화, MP 작성을 통한 사회적 가치 극대화</li>
+                        <li>IR 및 피칭 컨설팅: 투자유치 기초준비, IR Deck 작성, 피칭 스킬 교육 등</li>
+                        <li>담임멘토링: 기존 참여 시 TOP 선정기업 1:1 멘토링 (사업운영 노하우 및 네트워킹 확대 마련)</li></div>
+                </div>
+            </div>
+        
+            <div class="row promise-breaker-content-row" data-aos="fade" data-aos-anchor-placement="center-center">
+            <div class="col-12 col-sm-5 col-md-4 offset-md-2 promise-breaker-left">
+                    <h5 class="promise-breaker-title">임팩트 투자<br>(Impact Investment)</h5>
+                </div>
+                <div class="col-12 col-sm-7 col-md-6 promise-breaker-right">
+                    <div class="promise-breaker-border"></div>
+                    <div class="promise-breaker-copy"><p> 
+                        
+                        <li>임팩트투자 데모데이 'Deal Share Live’: 사업계획안 피칭 및 투자 심사, 임팩트 투자자와의 Roundtable을 통한 후속 투자유치 기회 제공</li>
+                        <li>임팩트 투자 조직 선정: 성장성 및 Social Value 등 심사, TOP 3 기업 선정 및 임팩트 투자(기업당 5천만원)</li>
+                        <li>공동운영기관 최소 1개팀 이상 2억원 및 TIPS 7억 후속 투자기회</li></p>
+</div>
+                </div>
+            </div>
+        
+            
+            <div class="row promise-breaker-content-row" data-aos="fade" data-aos-anchor-placement="center-center">
+                <div class="col-12 col-sm-5 col-md-4 offset-md-2 promise-breaker-left">
+                    <h6 class="promise-breaker-title">TOP3 조직 – 글로벌 프로그램 참여</h6>
+                </div>
+                <div class="col-12 col-sm-7 col-md-6 promise-breaker-right">
+                    <div class="promise-breaker-border"></div>
+                    <div class="promise-breaker-copy"><p>
+                            <li>타국가 사회혁신 조직과 네트워킹 프로그램                        </li>
+                            <li>해외 Fin-tech관련 이벤트 참여</li></p>
+</div>
+                </div>
+            </div>
+        
+    </div>
+</div></div>
+
 
 
 
