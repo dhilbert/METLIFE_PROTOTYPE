@@ -1,0 +1,18 @@
+.editor-detail {
+  word-break: break-all;
+}
+
+.editor-detail * {
+  font-size: inherit !important;
+}
+
+@media (max-width: 60rem) {
+  .editor-detail {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+
+  .editor-detail * {
+    font-size: inherit !important;
+  }
+}

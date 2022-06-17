@@ -1,0 +1,6 @@
+.divider.component{background-color:#fff;color:#333}
+.divider .divider__line{height:4px}
+.divider .divider__line.gradient{background-image:linear-gradient(to right,#008edd,#a2cf42)}
+.divider .divider__line.gray{background-color:#d9d9d9}
+.divider .divider__line.black{background-color:#333}
+.divider .divider__copy{margin-top:20px}

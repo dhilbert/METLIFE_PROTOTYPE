@@ -1,0 +1,1 @@
+{"version":3,"sources":["editer-contents.scss"],"names":[],"mappings":"AAAA;EACC,sBAAqB,EACrB","file":"../scss/editer-contents.css","sourcesContent":[".editor-detail{\r\n\tword-break: break-all;\r\n}"]}

@@ -1,0 +1,18 @@
+.bread-crumb.component{display:block;position:relative;z-index:1}
+.bread-crumb .bread-crumb__container{display:flex;align-items:center;position:absolute;top:30px;height:28px;border-radius:14px;box-shadow:0 2px 8px 0 rgba(0,0,0,0.05);padding:7.5px 12px}
+.bread-crumb .bread-crumb__crumb{font-family:'MetLifeCircular','Arial','Helvetica','sans-serif'}
+.bread-crumb .icon-chevron-right{height:6px;width:8px;margin-left:5px;margin-right:5px}
+.bread-crumb .light-theme{background-color:#fff}
+.bread-crumb .light-theme .bread-crumb__crumb,.bread-crumb .light-theme .bread-crumb__crumb a{color:#000}
+.bread-crumb .light-theme .bread-crumb__crumb:last-child{color:#75787b}
+.bread-crumb .light-theme .icon-chevron-right{fill:#75787b}
+.bread-crumb .dark-theme{background-color:rgba(0,0,0,0.3)}
+.bread-crumb .dark-theme .bread-crumb__crumb,.bread-crumb .dark-theme .bread-crumb__crumb a{color:#fff}
+.bread-crumb .dark-theme .bread-crumb__crumb:last-child{color:#b2b2b2}
+.bread-crumb .dark-theme .icon-chevron-right{fill:#fff}
+@media screen and (min-width:768px){.bread-crumb.component{display:block}
+.bread-crumb.video-playing{display:none}
+}
+@media screen and (min-width:1024px){.bread-crumb .bread-crumb__container{margin-left:40px}
+}
+@media screen and (max-width:1024px){.bread-crumb .bread-crumb__container {display: none;}}

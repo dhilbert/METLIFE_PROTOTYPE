@@ -1,0 +1,1 @@
+{"version":3,"sources":["contents/business.scss"],"names":[],"mappings":"AAEA;EACC,mBAAkB;EAClB,eAAc,EAOd;EATD;IAMG,aAAY,EACZ","file":"../../scss/contents/business.css","sourcesContent":["@import \"../component.scss\";\r\n\r\n.search-tab{\r\n\ttext-align: center;\r\n\tmargin: 40px 0;\r\n\r\n\t.input-box {\r\n\t\tinput {\r\n\t\t\twidth: 220px;\r\n\t\t}\r\n\t}\r\n}\r\n\r\n"]}
