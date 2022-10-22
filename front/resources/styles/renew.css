@@ -1,9 +1,0 @@
-.d-f { display: flex; }
-.d-f__center { display: flex; align-items: center; line-height: 32px; flex: 0 0 50%; max-width: 50%;}
-.m-b30 { margin-bottom: 30px; }
-.col-6-12 { flex: 0 0 50%; max-width: 50%; }
-
-@media screen and (max-width: 768px) {
-    .d-f { flex-direction: column; }
-    .col-6-12 { flex: 0 0 100%; max-width: 100%; }
-}
